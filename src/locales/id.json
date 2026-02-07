@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "blog": "Pembaruan",
+    "interface": "Antarmuka",
+    "features": "Fitur",
+    "security": "Keamanan",
+    "platforms": "Unduh"
+  },
+  "common": {
+    "tagline": "Pencatatan Cerdas"
+  },
+  "hero": {
+    "title": "Yang Paling Canggih",
+    "titleHighlight": "Catatan AI",
+    "subtitle": "Rasakan masa depan pencatatan cerdas dengan G-Note AI.",
+    "subtitleSecond": "Aplikasi catatan yang aman, cepat, dan kaya fitur dengan sinkronisasi cloud yang lancar dan bantuan AI yang kuat untuk produktivitas Anda.",
+    "downloadNow": "Dapatkan G-Note AI",
+    "openWeb": "Buka Web App",
+    "heroFeatures": {
+      "editing": {
+        "title": "Pengeditan Cerdas",
+        "description": "Editor blok yang kuat dengan dukungan Markdown dan media kaya."
+      },
+      "ai": {
+        "title": "Pengalaman AI-First",
+        "description": "Buat draf, ringkas, dan sempurnakan catatan dengan satu klik."
+      },
+      "privacy": {
+        "title": "Privasi Utama",
+        "description": "Tanpa penyimpanan server. Data Anda tetap di Drive Anda."
+      },
+      "search": {
+        "title": "Pencarian Universal",
+        "description": "Temukan catatan apa pun secara instan, tidak peduli ukuran perpustakaan Anda."
+      }
+    }
+  },
+  "wallet": {
+    "title": "Antarmuka Elegan & Modern",
+    "subtitle": "Rasakan antarmuka kami yang intuitif dan indah yang dirancang untuk kejelasan dan kecepatan. Setiap detail dibuat untuk pengalaman menulis dan mengatur yang sempurna.",
+    "mainInterface": "Ringkasan Catatan",
+    "mainInterfaceDesc": "Ruang kerja bersih dengan akses instan ke semua pemikiran Anda",
+    "mainInterfaceAlt": "Antarmuka Ringkasan Catatan G-Note AI",
+    "exploreInterface": "Asisten AI",
+    "exploreInterfaceDesc": "Ringkas, terjemahkan, dan tingkatkan catatan Anda dengan AI",
+    "exploreInterfaceAlt": "Antarmuka Asisten G-Note AI",
+    "nftInterface": "Media Kaya",
+    "nftInterfaceDesc": "Sematkan gambar, tabel, dan format kaya dengan mudah",
+    "nftInterfaceAlt": "Antarmuka Media Kaya G-Note AI"
+  },
+  "features": {
+    "title": "Segala yang Anda Butuhkan dalam Satu Aplikasi",
+    "subtitle": "G-Note AI menggabungkan keamanan, pengeditan yang kuat, dan fitur cerdas untuk memberikan pengalaman mencatat terbaik.",
+    "editing": {
+      "title": "Pengeditan Cerdas",
+      "description": "Menulis dengan editor berbasis blok yang kuat yang mendukung Markdown, teks kaya, dan media terintegrasi untuk kreativitas maksimal."
+    },
+    "ai": {
+      "title": "Pengalaman AI-First",
+      "description": "Biarkan AI membantu Anda menyusun draf, meringkas, dan menyempurnakan pemikiran Anda. Ubah catatan yang berantakan menjadi wawasan terstruktur dengan satu klik."
+    },
+    "privacy": {
+      "title": "Privasi Utama",
+      "description": "Tanpa penyimpanan server, transportasi terenkripsi, dan tanpa pelacakan pihak ketiga. Kekayaan intelektual Anda tetap pribadi dan aman di Drive Anda."
+    },
+    "search": {
+      "title": "Pencarian Universal",
+      "description": "Pencarian instan dan kuat di seluruh catatan Anda. Temukan pemikiran atau detail apa pun saat Anda membutuhkannya, tidak peduli seberapa besar perpustakaan Anda."
+    },
+    "voice": {
+      "title": "Tulisan Tangan & Suara",
+      "description": "Ekspresikan diri Anda secara alami dengan alat gambar bawaan dan input suara-ke-teks untuk mencatat tanpa tangan."
+    },
+    "ui": {
+      "title": "UI Modern",
+      "description": "Antarmuka minimalis yang indah dengan mode gelap yang mulus dan animasi halus yang dirancang untuk fokus."
+    }
+  },
+  "blog": {
+    "title": "Fitur Utama",
+    "subtitle": "Temukan apa yang membuat G-Note AI menjadi pendamping mencatat yang sempurna untuk produktivitas modern.",
+    "viewAll": "Jelajahi Semua Fitur",
+    "featureHighlights": {
+      "aiAssistant": {
+        "title": "Asisten Konten Bertenaga AI",
+        "excerpt": "Ubah tulisan Anda dengan bantuan AI yang cerdas. Ringkas catatan secara instan, perbaiki tata bahasa dan kejelasan, terjemahkan ke dalam 30+ bahasa, dan ekstrak tugas yang dapat ditindaklanjuti. Ubah nada tulisan Anda agar sesuai dengan konteks apa pun—dari email profesional hingga postingan santai. Bayar hanya untuk apa yang Anda gunakan dengan kredit fleksibel, tanpa perlu langganan.",
+        "badge": "Fitur AI"
+      },
+      "driveSync": {
+        "title": "Sinkronisasi Google Drive + Offline-First",
+        "excerpt": "Catatan Anda, kendali Anda. Disimpan secara eksklusif di Google Drive pribadi Anda—tidak pernah di server pihak ketiga. Bekerja di mana saja dengan fungsionalitas offline penuh, lalu sinkronkan secara otomatis saat online. Resolusi konflik cerdas menangani pengeditan di berbagai perangkat dengan lancar.",
+        "badge": "Privasi Utama"
+      },
+      "collaboration": {
+        "title": "Kolaborasi Real-Time",
+        "excerpt": "Berkolaborasi dengan mudah menggunakan teknologi peer-to-peer. Bagikan kode 6 digit sederhana dan edit bersama secara instan. Dibangun di atas WebRTC dengan resolusi konflik otomatis—perubahan disinkronkan secara real-time dengan penundaan server nol. Bekerja dengan lancar di seluruh jaringan WiFi, 4G, dan 5G.",
+        "badge": "Kolaborasi P2P"
+      }
+    }
+  },
+  "security": {
+    "title": "Keamanan yang Dapat Anda Percayai",
+    "subtitle": "Pemikiran Anda berharga. Mereka dilindungi oleh infrastruktur Google dan komitmen kami terhadap privasi data mutlak.",
+    "audited": "Privasi & Kontrol",
+    "auditedDesc": "G-Note AI memanfaatkan Google Drive pribadi Anda untuk penyimpanan. Kami tidak pernah menyimpan teks mentah Anda di server kami, memastikan Anda mempertahankan 100% kepemilikan dan privasi data Anda.",
+    "endToEndEncryption": {
+      "title": "Keamanan Sinkronisasi Cloud",
+      "description": "Data disinkronkan langsung ke akun Google Drive Anda, dilindungi oleh autentikasi OAuth2 terkemuka di industri."
+    },
+    "biometricAuth": {
+      "title": "Kolaborasi P2P",
+      "description": "Kolaborasi real-time menggunakan koneksi peer-to-peer langsung melalui WebRTC untuk sesi pengeditan yang aman dan cepat."
+    },
+    "hardwareWallet": {
+      "title": "Dukungan Offline",
+      "description": "Kemampuan offline penuh memastikan catatan Anda tetap ada di perangkat Anda terlebih dahulu. Sinkronisasi HANYA terjadi saat Anda online."
+    },
+    "privacyFirst": {
+      "title": "Tanpa Penyimpanan Server",
+      "description": "Kami tidak memiliki data Anda. Catatan Anda tinggal di Drive Anda, artinya tidak ada pihak ketiga yang dapat mengakses pemikiran Anda."
+    },
+    "multiSignature": {
+      "title": "Riwayat Versi",
+      "description": "Lindungi dari perubahan yang tidak disengaja dengan riwayat versi komprehensif untuk memulihkan status catatan sebelumnya."
+    },
+    "decentralizedInfra": {
+      "title": "MIT Open Source",
+      "description": "Basis kode kami transparan dan open source, memungkinkan komunitas untuk memverifikasi klaim privasi kami."
+    },
+    "badges": {
+      "openSource": "Open Source (MIT)",
+      "googleDrive": "Cloud Google Drive",
+      "privacyFocused": "Berfokus pada Privasi"
+    }
+  },
+  "platforms": {
+    "title": "Tersedia di Semua Platform",
+    "subtitle": "G-Note AI bekerja dengan lancar sebagai Web App, Ekstensi Chrome, dan dapat diinstal di perangkat apa pun sebagai Aplikasi Desktop atau Seluler.",
+    "mobile": "Aplikasi Seluler (PWA)",
+    "desktop": "Aplikasi Desktop (PWA)",
+    "browser": "Ekstensi Chrome",
+    "miniApp": "Versi Web",
+    "getStarted": "Luncurkan G-Note AI",
+    "buttons": {
+      "webApp": "Web App",
+      "addToChrome": "Tambahkan ke Chrome",
+      "installApp": "Instal Aplikasi"
+    }
+  },
+  "footer": {
+    "tagline": "Aplikasi pencatatan bertenaga AI tercanggih untuk pemikir modern.",
+    "copyright": "© {{year}} G-Note AI. Hak cipta dilindungi undang-undang.",
+    "telegramLink": "t.me/GNoteAI",
+    "social": {
+      "twitter": "Twitter",
+      "telegram": "Telegram",
+      "github": "GitHub"
+    },
+    "legal": {
+      "privacy": "Kebijakan Privasi",
+      "terms": "Syarat Layanan"
+    }
+  },
+  "seo": {
+    "title": "G-Note AI — Pencatatan Cerdas & Produktivitas AI",
+    "description": "G-Note AI adalah aplikasi pencatatan bertenaga AI terbaik. Aman, pribadi, dan disinkronkan di semua perangkat Anda. Ubah ide Anda menjadi wawasan cerdas.",
+    "keywords": "mencatat, catatan AI, produktivitas, editor markdown, sinkronisasi google drive, catatan pribadi"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "blog": "Updates",
+    "interface": "Interface",
+    "features": "Functies",
+    "security": "Beveiliging",
+    "platforms": "Downloaden"
+  },
+  "common": {
+    "tagline": "Intelligent notities maken"
+  },
+  "hero": {
+    "title": "De meest geavanceerde",
+    "titleHighlight": "AI-notities",
+    "subtitle": "Ervaar de toekomst van intelligent notities maken met G-Note AI.",
+    "subtitleSecond": "Veilige, snelle en veelzijdige notitie-app met naadloze cloudsynchronisatie en krachtige AI-ondersteuning voor uw productiviteit.",
+    "downloadNow": "G-Note AI downloaden",
+    "openWeb": "Web-app openen",
+    "heroFeatures": {
+      "editing": {
+        "title": "Slim bewerken",
+        "description": "Krachtige blokeditor met ondersteuning voor Markdown en rich media."
+      },
+      "ai": {
+        "title": "AI-first ervaring",
+        "description": "Concepten maken, samenvatten en notities verfijnen met één klik."
+      },
+      "privacy": {
+        "title": "Privacy voorop",
+        "description": "Geen serveropslag. Uw data blijft in uw Drive."
+      },
+      "search": {
+        "title": "Universeel zoeken",
+        "description": "Vind elke notitie direct, ongeacht de grootte van uw bibliotheek."
+      }
+    }
+  },
+  "wallet": {
+    "title": "Elegante & moderne interface",
+    "subtitle": "Ervaar onze intuïtieve en prachtige interface ontworpen voor helderheid en snelheid. Elk detail is gemaakt voor de perfecte schrijf- en organisatie-ervaring.",
+    "mainInterface": "Notitie-overzicht",
+    "mainInterfaceDesc": "Opgeruimde werkruimte met directe toegang tot al uw gedachten",
+    "mainInterfaceAlt": "G-Note AI notitie-overzicht interface",
+    "exploreInterface": "AI-assistent",
+    "exploreInterfaceDesc": "Samenvatten, vertalen en uw notities verbeteren met AI",
+    "exploreInterfaceAlt": "G-Note AI assistent-interface",
+    "nftInterface": "Rich media",
+    "nftInterfaceDesc": "Voeg moeiteloos afbeeldingen, tabellen en uitgebreide opmaak in",
+    "nftInterfaceAlt": "G-Note AI rich media-interface"
+  },
+  "features": {
+    "title": "Alles wat u nodig heeft in één app",
+    "subtitle": "G-Note AI combineert beveiliging, krachtige bewerking en intelligente functies om de ultieme notitie-ervaring te bieden.",
+    "editing": {
+      "title": "Slim bewerken",
+      "description": "Schrijf met een krachtige op blokken gebaseerde editor die Markdown, rich text en geïntegreerde media ondersteunt voor maximale creativiteit."
+    },
+    "ai": {
+      "title": "AI-first ervaring",
+      "description": "Laat AI u helpen bij het opstellen, samenvatten en verfijnen van uw gedachten. Transformeer rommelige notities in gestructureerde inzichten met een enkele klik."
+    },
+    "privacy": {
+      "title": "Privacy voorop",
+      "description": "Geen serveropslag, versleuteld transport en geen tracking door derden. Uw intellectuele eigendom blijft privé en veilig in uw Drive."
+    },
+    "search": {
+      "title": "Universeel zoeken",
+      "description": "Direct, krachtig zoeken in al uw notities. Vind elke gedachte of elk detail op het moment dat u het nodig heeft, ongeacht hoe groot uw bibliotheek is."
+    },
+    "voice": {
+      "title": "Handschrift & Spraak",
+      "description": "Druk uzelf natuurlijk uit met ingebouwde tekentools en spraak-naar-tekst invoer voor handsfree notities maken."
+    },
+    "ui": {
+      "title": "Moderne UI",
+      "description": "Een prachtige, minimalistische interface met naadloze donkere modus en vloeiende animaties ontworpen voor focus."
+    }
+  },
+  "blog": {
+    "title": "Belangrijkste functies",
+    "subtitle": "Ontdek wat G-Note AI de perfecte notitiepartner maakt voor moderne productiviteit.",
+    "viewAll": "Alle functies bekijken",
+    "featureHighlights": {
+      "aiAssistant": {
+        "title": "AI-gestuurde contentassistent",
+        "excerpt": "Transformeer uw schrijven met intelligente AI-ondersteuning. Vat notities direct samen, verbeter grammatica en duidelijkheid, vertaal naar 30+ talen en haal actiepunten eruit. Verander uw schrijftoon voor elke context—van professionele e-mails tot informele posts. Betaal alleen voor wat u gebruikt met flexibele credits, geen abonnementen vereist.",
+        "badge": "AI-functies"
+      },
+      "driveSync": {
+        "title": "Google Drive Sync + Offline-first",
+        "excerpt": "Uw notities, uw controle. Exclusief opgeslagen in uw persoonlijke Google Drive—nooit op servers van derden. Werk overal met volledige offline functionaliteit en synchroniseer automatisch wanneer u online bent. Intelligente conflictoplossing verwerkt bewerkingen op meerdere apparaten naadloos.",
+        "badge": "Privacy voorop"
+      },
+      "collaboration": {
+        "title": "Realtime samenwerking",
+        "excerpt": "Werk moeiteloos samen met peer-to-peer technologie. Deel een eenvoudige 6-cijferige code en bewerk direct samen. Gebouwd op WebRTC met automatische conflictoplossing—wijzigingen synchroniseren in realtime met nul serververtraging. Werkt naadloos via WiFi-, 4G- en 5G-netwerken.",
+        "badge": "P2P-samenwerking"
+      }
+    }
+  },
+  "security": {
+    "title": "Beveiliging die u kunt vertrouwen",
+    "subtitle": "Uw gedachten zijn kostbaar. Ze worden beschermd door de infrastructuur van Google en onze toewijding aan absolute gegevensprivacy.",
+    "audited": "Privacy & Controle",
+    "auditedDesc": "G-Note AI gebruikt uw persoonlijke Google Drive voor opslag. We slaan uw ruwe tekst nooit op onze servers op, zodat u 100% eigendom en privacy van uw gegevens behoudt.",
+    "endToEndEncryption": {
+      "title": "Cloudsynchronisatie-beveiliging",
+      "description": "Gegevens worden direct gesynchroniseerd naar uw Google Drive-account, beschermd door toonaangevende OAuth2-authenticatie."
+    },
+    "biometricAuth": {
+      "title": "P2P-samenwerking",
+      "description": "Realtime samenwerking gebruikt directe peer-to-peer verbindingen via WebRTC voor veilige en snelle bewerkingssessies."
+    },
+    "hardwareWallet": {
+      "title": "Offline ondersteuning",
+      "description": "Volledige offline capaciteit zorgt ervoor dat uw notities eerst op uw apparaat blijven. Synchronisatie vindt ALLEEN plaats wanneer u online gaat."
+    },
+    "privacyFirst": {
+      "title": "Geen serveropslag",
+      "description": "Wij bezitten uw gegevens niet. Uw notities staan in uw Drive, wat betekent dat geen derde partij toegang heeft tot uw gedachten."
+    },
+    "multiSignature": {
+      "title": "Versiegeschiedenis",
+      "description": "Bescherm tegen onbedoelde wijzigingen met uitgebreide versiegeschiedenis om eerdere statussen van notities te herstellen."
+    },
+    "decentralizedInfra": {
+      "title": "MIT Open Source",
+      "description": "Onze codebase is transparant en open source, waardoor de community onze privacyclaims kan verifiëren."
+    },
+    "badges": {
+      "openSource": "Open Source (MIT)",
+      "googleDrive": "Google Drive Cloud",
+      "privacyFocused": "Privacygericht"
+    }
+  },
+  "platforms": {
+    "title": "Beschikbaar op alle platforms",
+    "subtitle": "G-Note AI werkt naadloos als web-app, Chrome-extensie en kan op elk apparaat worden geïnstalleerd als desktop- of mobiele app.",
+    "mobile": "Mobiele app (PWA)",
+    "desktop": "Desktop-app (PWA)",
+    "browser": "Chrome-extensie",
+    "miniApp": "Webversie",
+    "getStarted": "Start G-Note AI",
+    "buttons": {
+      "webApp": "Web-app",
+      "addToChrome": "Toevoegen aan Chrome",
+      "installApp": "App installeren"
+    }
+  },
+  "footer": {
+    "tagline": "De meest geavanceerde AI-aangedreven notitie-applicatie voor moderne denkers.",
+    "copyright": "© {{year}} G-Note AI. Alle rechten voorbehouden.",
+    "telegramLink": "t.me/GNoteAI",
+    "social": {
+      "twitter": "Twitter",
+      "telegram": "Telegram",
+      "github": "GitHub"
+    },
+    "legal": {
+      "privacy": "Privacybeleid",
+      "terms": "Servicevoorwaarden"
+    }
+  },
+  "seo": {
+    "title": "G-Note AI — Slimme notities & AI-productiviteit",
+    "description": "G-Note AI is de ultieme door AI aangedreven notitie-app. Veilig, privé en gesynchroniseerd op al uw apparaten. Zet uw ideeën om in slimme inzichten.",
+    "keywords": "notities maken, AI-notities, productiviteit, markdown-editor, google drive sync, privé notities"
+  }
+}

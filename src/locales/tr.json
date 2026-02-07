@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "blog": "Güncellemeler",
+    "interface": "Arayüz",
+    "features": "Özellikler",
+    "security": "Güvenlik",
+    "platforms": "İndir"
+  },
+  "common": {
+    "tagline": "Akıllı Not Alma"
+  },
+  "hero": {
+    "title": "En Gelişmiş",
+    "titleHighlight": "AI Notlar",
+    "subtitle": "G-Note AI ile akıllı not almanın geleceğini deneyimleyin.",
+    "subtitleSecond": "Verimliliğiniz için sorunsuz bulut senkronizasyonu ve güçlü AI desteğine sahip güvenli, hızlı ve özellik açısından zengin not uygulaması.",
+    "downloadNow": "G-Note AI Edin",
+    "openWeb": "Web Uygulamasını Aç",
+    "heroFeatures": {
+      "editing": {
+        "title": "Akıllı Düzenleme",
+        "description": "Markdown ve zengin medya desteğine sahip güçlü blok düzenleyici."
+      },
+      "ai": {
+        "title": "Önce AI Deneyimi",
+        "description": "Tek tıkla taslak oluşturun, özetleyin ve notları iyileştirin."
+      },
+      "privacy": {
+        "title": "Önce Gizlilik",
+        "description": "Sıfır sunucu depolaması. Verileriniz Google Drive hesabınızda kalır."
+      },
+      "search": {
+        "title": "Evrensel Arama",
+        "description": "Kitaplık boyutunuz ne olursa olsun, herhangi bir notu anında bulun."
+      }
+    }
+  },
+  "wallet": {
+    "title": "Zarif ve Modern Arayüz",
+    "subtitle": "Netlik ve hız için tasarlanmış sezgisel ve güzel arayüzümüzü deneyimleyin. Her ayrıntı mükemmel yazma ve düzenleme deneyimi için hazırlandı.",
+    "mainInterface": "Notlara Genel Bakış",
+    "mainInterfaceDesc": "Tüm düşüncelerinize anında erişim sağlayan temiz çalışma alanı",
+    "mainInterfaceAlt": "G-Note AI Notlara Genel Bakış Arayüzü",
+    "exploreInterface": "AI Asistanı",
+    "exploreInterfaceDesc": "Notlarınızı AI ile özetleyin, çevirin ve geliştirin",
+    "exploreInterfaceAlt": "G-Note AI Asistan Arayüzü",
+    "nftInterface": "Zengin Medya",
+    "nftInterfaceDesc": "Görüntüleri, tabloları ve zengin formatları zahmetsizce gömün",
+    "nftInterfaceAlt": "G-Note AI Zengin Medya Arayüzü"
+  },
+  "features": {
+    "title": "İhtiyacınız Olan Her Şey Tek Bir Uygulamada",
+    "subtitle": "G-Note AI, en üst düzey not alma deneyimini sunmak için güvenlik, güçlü düzenleme ve akıllı özellikleri birleştirir.",
+    "editing": {
+      "title": "Akıllı Düzenleme",
+      "description": "Maksimum yaratıcılık için Markdown, zengin metin ve entegre medyayı destekleyen güçlü blok tabanlı bir düzenleyici ile yazın."
+    },
+    "ai": {
+      "title": "Önce AI Deneyimi",
+      "description": "Düşüncelerinizi taslak haline getirirken, özetlerken ve iyileştirirken AI'nın size yardımcı olmasına izin verin. Dağınık notları tek tıkla yapılandırılmış içgörülere dönüştürün."
+    },
+    "privacy": {
+      "title": "Önce Gizlilik",
+      "description": "Sıfır sunucu depolaması, şifreli taşıma ve üçüncü taraf takibi yok. Fikri mülkiyetiniz Google Drive hesabınızda gizli ve güvenli kalır."
+    },
+    "search": {
+      "title": "Evrensel Arama",
+      "description": "Tüm notlarınızda anında, güçlü arama. Kitaplığınız ne kadar büyük olursa olsun, herhangi bir düşünceyi veya ayrıntıyı ihtiyaç duyduğunuz anda bulun."
+    },
+    "voice": {
+      "title": "El Yazısı ve Ses",
+      "description": "Eller serbest not almak için yerleşik çizim araçları ve sesten metne giriş ile kendinizi doğal bir şekilde ifade edin."
+    },
+    "ui": {
+      "title": "Modern Kullanıcı Arayüzü",
+      "description": "Odaklanma için tasarlanmış, kusursuz karanlık mod ve akıcı animasyonlara sahip güzel, minimalist bir arayüz."
+    }
+  },
+  "blog": {
+    "title": "Temel Özellikler",
+    "subtitle": "G-Note AI'yı modern verimlilik için mükemmel bir not alma arkadaşı yapan özellikleri keşfedin.",
+    "viewAll": "Tüm Özellikleri Keşfedin",
+    "featureHighlights": {
+      "aiAssistant": {
+        "title": "AI Destekli İçerik Asistanı",
+        "excerpt": "Akıllı AI desteği ile yazınızı dönüştürün. Notları anında özetleyin, dilbilgisini ve netliği iyileştirin, 30'dan fazla dile çevirin ve uygulanabilir görevleri çıkarın. Yazım tonunuzu profesyonel e-postalardan sıradan paylaşımlara kadar her türlü bağlama uyacak şekilde değiştirin. Esnek kredilerle yalnızca kullandığınız kadar ödeyin, abonelik gerekmez.",
+        "badge": "AI Özellikleri"
+      },
+      "driveSync": {
+        "title": "Google Drive Senkronizasyonu + Offline-First",
+        "excerpt": "Notlarınız, sizin kontrolünüzde. Özel olarak kişisel Google Drive hesabınızda saklanır, asla üçüncü taraf sunucularında değil. Tam çevrimdışı işlevsellik ile her yerde çalışın, ardından çevrimiçi olduğunuzda otomatik olarak senkronize edin. Akıllı çakışma çözümü, birden fazla cihazdaki düzenlemeleri sorunsuz bir şekilde yönetir.",
+        "badge": "Önce Gizlilik"
+      },
+      "collaboration": {
+        "title": "Gerçek Zamanlı İş Birliği",
+        "excerpt": "Eşler arası teknoloji ile zahmetsizce iş birliği yapın. Basit bir 6 haneli kod paylaşın ve anında birlikte düzenleyin. Otomatik çakışma çözümlü WebRTC üzerine inşa edilmiştir; değişiklikler sıfır sunucu gecikmesiyle gerçek zamanlı olarak senkronize edilir. WiFi, 4G ve 5G ağlarında sorunsuz çalışır.",
+        "badge": "P2P İş Birliği"
+      }
+    }
+  },
+  "security": {
+    "title": "Güvenebileceğiniz Güvenlik",
+    "subtitle": "Düşünceleriniz değerlidir. Google altyapısı ve mutlak veri gizliliği taahhüdümüzle korunurlar.",
+    "audited": "Gizlilik ve Kontrol",
+    "auditedDesc": "G-Note AI, depolama için kişisel Google Drive hesabınızı kullanır. Ham metninizi asla sunucularımızda saklamayız, böylece verilerinizin %100 mülkiyetini ve gizliliğini korumanızı sağlarız.",
+    "endToEndEncryption": {
+      "title": "Bulut Senkronizasyon Güvenliği",
+      "description": "Veriler, sektör lideri OAuth2 kimlik doğrulaması ile korunan Google Drive hesabınıza doğrudan senkronize edilir."
+    },
+    "biometricAuth": {
+      "title": "P2P İş Birliği",
+      "description": "Gerçek zamanlı iş birliği, güvenli ve hızlı düzenleme oturumları için WebRTC üzerinden doğrudan eşler arası bağlantıları kullanır."
+    },
+    "hardwareWallet": {
+      "title": "Çevrimdışı Destek",
+      "description": "Tam çevrimdışı özellik, notlarınızın önce cihazınızda kalmasını sağlar. Senkronizasyon YALNIZCA çevrimiçi olduğunuzda gerçekleşir."
+    },
+    "privacyFirst": {
+      "title": "Sıfır Sunucu Depolaması",
+      "description": "Verilerinizin sahibi biz değiliz. Notlarınız Google Drive hesabınızda barınır, bu da hiçbir üçüncü tarafın düşüncelerinize erişemeyeceği anlamına gelir."
+    },
+    "multiSignature": {
+      "title": "Sürüm Geçmişi",
+      "description": "Önceki not durumlarını geri yüklemek için kapsamlı sürüm geçmişi ile kazara yapılan değişikliklere karşı koruma sağlayın."
+    },
+    "decentralizedInfra": {
+      "title": "MIT Açık Kaynak",
+      "description": "Kod tabanımız şeffaf ve açık kaynaklıdır, bu da topluluğun gizlilik iddialarımızı doğrulamasını sağlar."
+    },
+    "badges": {
+      "openSource": "Açık Kaynak (MIT)",
+      "googleDrive": "Google Drive Bulutu",
+      "privacyFocused": "Gizlilik Odaklı"
+    }
+  },
+  "platforms": {
+    "title": "Tüm Platformlarda Mevcut",
+    "subtitle": "G-Note AI; Web Uygulaması, Chrome Uzantısı olarak sorunsuz çalışır ve herhangi bir cihaza Masaüstü veya Mobil Uygulama olarak yüklenebilir.",
+    "mobile": "Mobil Uygulama (PWA)",
+    "desktop": "Masaüstü Uygulaması (PWA)",
+    "browser": "Chrome Uzantısı",
+    "miniApp": "Web Sürümü",
+    "getStarted": "G-Note AI'yı Başlat",
+    "buttons": {
+      "webApp": "Web Uygulaması",
+      "addToChrome": "Chrome'a Ekle",
+      "installApp": "Uygulamayı Yükle"
+    }
+  },
+  "footer": {
+    "tagline": "Modern düşünürler için AI destekli en gelişmiş not alma uygulaması.",
+    "copyright": "© {{year}} G-Note AI. Tüm hakları saklıdır.",
+    "telegramLink": "t.me/GNoteAI",
+    "social": {
+      "twitter": "Twitter",
+      "telegram": "Telegram",
+      "github": "GitHub"
+    },
+    "legal": {
+      "privacy": "Gizlilik Politikası",
+      "terms": "Hizmet Şartları"
+    }
+  },
+  "seo": {
+    "title": "G-Note AI — Akıllı Not Alma ve AI Üretkenliği",
+    "description": "G-Note AI, en üst düzey AI destekli not alma uygulamasıdır. Güvenli, özel ve tüm cihazlarınızda senkronize. Fikirlerinizi akıllı içgörülere dönüştürün.",
+    "keywords": "not alma, AI notları, üretkenlik, markdown editörü, google drive senkronizasyonu, özel notlar"
+  }
+}

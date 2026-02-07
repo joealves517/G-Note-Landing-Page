@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "blog": "업데이트",
+    "interface": "인터페이스",
+    "features": "기능",
+    "security": "보안",
+    "platforms": "다운로드"
+  },
+  "common": {
+    "tagline": "지능형 메모 작성"
+  },
+  "hero": {
+    "title": "가장 진보된",
+    "titleHighlight": "AI 노트",
+    "subtitle": "G-Note AI와 함께 지능형 메모 작성의 미래를 경험하세요.",
+    "subtitleSecond": "원활한 클라우드 동기화와 생산성을 위한 강력한 AI 지원을 갖춘, 안전하고 빠르며 기능이 풍부한 메모 애플리케이션입니다.",
+    "downloadNow": "G-Note AI 받기",
+    "openWeb": "웹 앱 열기",
+    "heroFeatures": {
+      "editing": {
+        "title": "지능형 편집",
+        "description": "Markdown 및 리치 미디어를 지원하는 강력한 블록 에디터."
+      },
+      "ai": {
+        "title": "AI 우선 경험",
+        "description": "한 번의 클릭으로 초안 작성, 요약 및 메모 다듬기."
+      },
+      "privacy": {
+        "title": "개인정보 보호 우선",
+        "description": "서버 저장소 없음. 데이터는 귀하의 Drive에 유지됩니다."
+      },
+      "search": {
+        "title": "통합 검색",
+        "description": "라이브러리 크기에 상관없이 모든 메모를 즉시 찾으세요."
+      }
+    }
+  },
+  "wallet": {
+    "title": "우아하고 현대적인 인터페이스",
+    "subtitle": "명확성과 속도를 위해 설계된 직관적이고 아름다운 인터페이스를 경험하세요. 모든 디테일은 완벽한 쓰기 및 정리 경험을 위해 제작되었습니다.",
+    "mainInterface": "메모 개요",
+    "mainInterfaceDesc": "모든 생각에 즉시 액세스할 수 있는 깔끔한 작업 공간",
+    "mainInterfaceAlt": "G-Note AI 메모 개요 인터페이스",
+    "exploreInterface": "AI 어시스턴트",
+    "exploreInterfaceDesc": "AI로 메모 요약, 번역 및 개선",
+    "exploreInterfaceAlt": "G-Note AI 어시스턴트 인터페이스",
+    "nftInterface": "리치 미디어",
+    "nftInterfaceDesc": "이미지, 표, 풍부한 서식을 손쉽게 삽입",
+    "nftInterfaceAlt": "G-Note AI 리치 미디어 인터페이스"
+  },
+  "features": {
+    "title": "필요한 모든 기능을 하나의 앱에",
+    "subtitle": "G-Note AI는 보안, 강력한 편집, 지능형 기능을 결합하여 최고의 메모 작성 경험을 제공합니다.",
+    "editing": {
+      "title": "지능형 편집",
+      "description": "창의성을 극대화하기 위해 Markdown, 서식 텍스트 및 통합 미디어를 지원하는 강력한 블록 기반 에디터로 작성하세요."
+    },
+    "ai": {
+      "title": "AI 우선 경험",
+      "description": "AI가 생각의 초안 작성, 요약 및 다듬기를 돕게 하세요. 엉성한 메모를 한 번의 클릭으로 구조화된 인사이트로 변환합니다."
+    },
+    "privacy": {
+      "title": "개인정보 보호 우선",
+      "description": "서버 저장소 제로, 암호화 전송, 제3자 추적 없음. 귀하의 지적 재산은 Drive에 비공개로 안전하게 유지됩니다."
+    },
+    "search": {
+      "title": "통합 검색",
+      "description": "모든 메모에 대한 즉각적이고 강력한 검색. 라이브러리가 아무리 커도 필요한 순간에 어떤 생각이나 세부 사항이든 찾으세요."
+    },
+    "voice": {
+      "title": "필기 & 음성",
+      "description": "내장된 그리기 도구와 핸즈프리 메모 작성을 위한 음성-텍스트 변환 입력으로 자연스럽게 표현하세요."
+    },
+    "ui": {
+      "title": "현대적인 UI",
+      "description": "집중을 위해 설계된 매끄러운 다크 모드와 부드러운 애니메이션을 갖춘 아름답고 미니멀한 인터페이스."
+    }
+  },
+  "blog": {
+    "title": "주요 기능",
+    "subtitle": "G-Note AI가 현대적인 생산성을 위한 완벽한 메모 동반자인 이유를 알아보세요.",
+    "viewAll": "모든 기능 살펴보기",
+    "featureHighlights": {
+      "aiAssistant": {
+        "title": "AI 기반 콘텐츠 어시스턴트",
+        "excerpt": "지능형 AI 지원으로 글쓰기를 혁신하세요. 메모 즉시 요약, 문법 및 명확성 개선, 30개 이상의 언어로 번역, 실행 가능한 작업 추출이 가능합니다. 전문적인 이메일에서 가벼운 게시물까지 어떤 상황에도 맞게 글쓰기 톤을 변경하세요. 구독 없이 유연한 크레딧으로 사용한 만큼만 지불하세요.",
+        "badge": "AI 기능"
+      },
+      "driveSync": {
+        "title": "Google Drive 동기화 + 오프라인 우선",
+        "excerpt": "당신의 메모, 당신의 통제. 제3자 서버가 아닌 개인 Google Drive에만 독점적으로 저장됩니다. 완벽한 오프라인 기능으로 어디서나 작업하고 온라인 상태일 때 자동으로 동기화하세요. 지능형 충돌 해결 기능이 여러 장치 간의 편집을 원활하게 처리합니다.",
+        "badge": "개인정보 보호 우선"
+      },
+      "collaboration": {
+        "title": "실시간 협업",
+        "excerpt": "P2P 기술로 손쉽게 협업하세요. 간단한 6자리 코드를 공유하고 즉시 함께 편집하세요. 자동 충돌 해결 기능이 있는 WebRTC를 기반으로 구축되어 변경 사항이 서버 지연 없이 실시간으로 동기화됩니다. WiFi, 4G, 5G 네트워크에서 원활하게 작동합니다.",
+        "badge": "P2P 협업"
+      }
+    }
+  },
+  "security": {
+    "title": "신뢰할 수 있는 보안",
+    "subtitle": "귀하의 생각은 소중합니다. Google의 인프라와 절대적인 데이터 개인정보 보호에 대한 당사의 약속으로 보호됩니다.",
+    "audited": "개인정보 보호 및 통제",
+    "auditedDesc": "G-Note AI는 저장소로 귀하의 개인 Google Drive를 활용합니다. 당사는 귀하의 원본 텍스트를 서버에 절대 저장하지 않으며, 귀하가 데이터의 소유권과 개인정보를 100% 유지하도록 보장합니다.",
+    "endToEndEncryption": {
+      "title": "클라우드 동기화 보안",
+      "description": "데이터는 업계 최고의 OAuth2 인증으로 보호되는 귀하의 Google Drive 계정으로 직접 동기화됩니다."
+    },
+    "biometricAuth": {
+      "title": "P2P 협업",
+      "description": "실시간 협업은 안전하고 빠른 편집 세션을 위해 WebRTC를 통한 직접 P2P 연결을 사용합니다."
+    },
+    "hardwareWallet": {
+      "title": "오프라인 지원",
+      "description": "완전한 오프라인 기능으로 메모가 기기에 먼저 유지되도록 보장합니다. 동기화는 온라인 상태일 때'만' 발생합니다."
+    },
+    "privacyFirst": {
+      "title": "서버 저장소 제로",
+      "description": "당사는 귀하의 데이터를 소유하지 않습니다. 메모는 귀하의 Drive에 존재하며, 이는 제3자가 귀하의 생각에 접근할 수 없음을 의미합니다."
+    },
+    "multiSignature": {
+      "title": "버전 기록",
+      "description": "이전 메모 상태를 복원할 수 있는 포괄적인 버전 기록으로 우발적인 변경으로부터 보호합니다."
+    },
+    "decentralizedInfra": {
+      "title": "MIT 오픈 소스",
+      "description": "당사의 코드베이스는 투명한 오픈 소스이며, 커뮤니티가 개인정보 보호에 대한 주장을 검증할 수 있습니다."
+    },
+    "badges": {
+      "openSource": "오픈 소스 (MIT)",
+      "googleDrive": "Google Drive 클라우드",
+      "privacyFocused": "개인정보 보호 중심"
+    }
+  },
+  "platforms": {
+    "title": "모든 플랫폼에서 사용 가능",
+    "subtitle": "G-Note AI는 웹 앱, Chrome 확장 프로그램으로 원활하게 작동하며, 데스크톱 또는 모바일 앱으로 모든 기기에 설치할 수 있습니다.",
+    "mobile": "모바일 앱 (PWA)",
+    "desktop": "데스크톱 앱 (PWA)",
+    "browser": "Chrome 확장 프로그램",
+    "miniApp": "웹 버전",
+    "getStarted": "G-Note AI 실행",
+    "buttons": {
+      "webApp": "웹 앱",
+      "addToChrome": "Chrome에 추가",
+      "installApp": "앱 설치"
+    }
+  },
+  "footer": {
+    "tagline": "현대 사상가를 위한 가장 진보된 AI 기반 메모 애플리케이션.",
+    "copyright": "© {{year}} G-Note AI. 모든 권리 보유.",
+    "telegramLink": "t.me/GNoteAI",
+    "social": {
+      "twitter": "Twitter",
+      "telegram": "Telegram",
+      "github": "GitHub"
+    },
+    "legal": {
+      "privacy": "개인정보 처리방침",
+      "terms": "서비스 약관"
+    }
+  },
+  "seo": {
+    "title": "G-Note AI — 지능형 메모 작성 및 AI 생산성",
+    "description": "G-Note AI는 최고의 AI 기반 메모 앱입니다. 안전하고 비공개이며 모든 기기에서 동기화됩니다. 아이디어를 지능적인 통찰력으로 변환하세요.",
+    "keywords": "메모 작성, AI 메모, 생산성, 마크다운 편집기, Google 드라이브 동기화, 비공개 메모"
+  }
+}

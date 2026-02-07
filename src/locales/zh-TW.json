@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "blog": "更新動態",
+    "interface": "介面",
+    "features": "功能特性",
+    "security": "安全性",
+    "platforms": "下載"
+  },
+  "common": {
+    "tagline": "智慧筆記體驗"
+  },
+  "hero": {
+    "title": "最先進的",
+    "titleHighlight": "AI 筆記",
+    "subtitle": "與 G-Note AI 一起體驗智慧筆記的未來。",
+    "subtitleSecond": "安全、快速且功能豐富的筆記應用程式，具備無縫雲端同步與強大的 AI 輔助，助力提升您的生產力。",
+    "downloadNow": "取得 G-Note AI",
+    "openWeb": "開啟 Web App",
+    "heroFeatures": {
+      "editing": {
+        "title": "智慧編輯",
+        "description": "強大的區塊編輯器，支援 Markdown 與多媒體內容。"
+      },
+      "ai": {
+        "title": "AI 優先體驗",
+        "description": "一鍵起草、總結並精煉筆記內容。"
+      },
+      "privacy": {
+        "title": "隱私至上",
+        "description": "伺服器零儲存。您的數據保留在您的 Google Drive 中。"
+      },
+      "search": {
+        "title": "全域搜尋",
+        "description": "無論資料庫大小，都能立即找到任何筆記。"
+      }
+    }
+  },
+  "wallet": {
+    "title": "優雅現代的介面",
+    "subtitle": "體驗我們專為清晰與速度設計的直覺、美觀介面。每一個細節都為完美的寫作與組織體驗精心打造。",
+    "mainInterface": "筆記概覽",
+    "mainInterfaceDesc": "整潔的工作空間，可即時存取您的所有想法",
+    "mainInterfaceAlt": "G-Note AI 筆記概覽介面",
+    "exploreInterface": "AI 助手",
+    "exploreInterfaceDesc": "利用 AI 總結、翻譯並增強您的筆記",
+    "exploreInterfaceAlt": "G-Note AI 助手介面",
+    "nftInterface": "多媒體內容",
+    "nftInterfaceDesc": "輕鬆嵌入圖片、表格與豐富的格式",
+    "nftInterfaceAlt": "G-Note AI 多媒體介面"
+  },
+  "features": {
+    "title": "您所需的一切，盡在一個應用程式中",
+    "subtitle": "G-Note AI 結合了安全性、強大的編輯功能和智慧特性，提供終極的筆記體驗。",
+    "editing": {
+      "title": "智慧編輯",
+      "description": "使用支援 Markdown、富文本和整合媒體的強大區塊編輯器進行寫作，最大程度發揮創造力。"
+    },
+    "ai": {
+      "title": "AI 優先體驗",
+      "description": "讓 AI 幫助您起草、總結和精煉想法。只需點擊一下，即可將凌亂的筆記轉化為有條理的見解。"
+    },
+    "privacy": {
+      "title": "隱私至上",
+      "description": "伺服器零儲存、加密傳輸，且無第三方追蹤。您的智慧財產在您的 Google Drive 中保持私密且安全。"
+    },
+    "search": {
+      "title": "全域搜尋",
+      "description": "在所有筆記中進行即時、強大的搜尋。無論您的資料庫有多大，都能在需要時隨時找到任何想法或細節。"
+    },
+    "voice": {
+      "title": "手寫與語音",
+      "description": "透過內建繪圖工具與語音轉文字輸入，自然地表達自己，實現免提筆記。"
+    },
+    "ui": {
+      "title": "現代 UI",
+      "description": "精美、極簡的介面，具備無縫深色模式和流暢動畫，專為專注而設計。"
+    }
+  },
+  "blog": {
+    "title": "核心功能",
+    "subtitle": "探索是什麼讓 G-Note AI 成為現代生產力的完美筆記伴侶。",
+    "viewAll": "探索所有功能",
+    "featureHighlights": {
+      "aiAssistant": {
+        "title": "AI 驅動內容助手",
+        "excerpt": "透過智慧 AI 輔助改變您的寫作方式。立即總結筆記、改進語法與清晰度、翻譯成 30 多種語言並提取可執行任務。根據任何語境更改寫作語氣——從專業郵件到日常動態。透過彈性點數按需付費，無需訂閱。",
+        "badge": "AI 功能"
+      },
+      "driveSync": {
+        "title": "Google Drive 同步 + 離線優先",
+        "excerpt": "您的筆記，由您控制。資料專門儲存在您的個人 Google Drive 中——絕不在第三方伺服器上。具備完整的離線功能，可在任何地方工作，並在連網時自動同步。智慧衝突解決機制可無縫處理多裝置間的編輯。",
+        "badge": "隱私至上"
+      },
+      "collaboration": {
+        "title": "即時協作",
+        "excerpt": "透過 P2P 技術輕鬆協作。只需分享一個簡單的 6 位數代碼，即可立即共同編輯。基於 WebRTC 構建，具備自動衝突解決功能——更改即時同步，伺服器零延遲。在 WiFi、4G 與 5G 網路下均可無縫運行。",
+        "badge": "P2P 協作"
+      }
+    }
+  },
+  "security": {
+    "title": "值得信賴的安全保障",
+    "subtitle": "您的想法非常珍貴。它們受到 Google 基礎設施以及我們對絕對數據隱私承諾的保護。",
+    "audited": "隱私與控制",
+    "auditedDesc": "G-Note AI 利用您的個人 Google Drive 進行儲存。我們從不在伺服器上儲存您的原始文字，確保您對數據保有 100% 的所有權與隱私。",
+    "endToEndEncryption": {
+      "title": "雲端同步安全",
+      "description": "數據直接同步到您的 Google Drive 帳戶，受業界領先的 OAuth2 驗證保護。"
+    },
+    "biometricAuth": {
+      "title": "P2P 協作",
+      "description": "即時協作透過 WebRTC 使用直接的點對點連接，確保編輯工作階段安全且快速。"
+    },
+    "hardwareWallet": {
+      "title": "離線支援",
+      "description": "完整的離線能力確保您的筆記首先保存在您的裝置上。僅在您上線時才進行同步。"
+    },
+    "privacyFirst": {
+      "title": "伺服器零儲存",
+      "description": "我們不擁有您的數據。您的筆記存在於您的 Drive 中，這意味著任何第三方都無法存取您的想法。"
+    },
+    "multiSignature": {
+      "title": "版本歷史",
+      "description": "透過完整的版本歷史記錄防止意外更改，以便恢復到以前的筆記狀態。"
+    },
+    "decentralizedInfra": {
+      "title": "MIT 開源",
+      "description": "我們的程式碼庫是透明且開源的，允許社群驗證我們的隱私聲明。"
+    },
+    "badges": {
+      "openSource": "開源 (MIT)",
+      "googleDrive": "Google Drive 雲端",
+      "privacyFocused": "隱私導向"
+    }
+  },
+  "platforms": {
+    "title": "支援所有平台",
+    "subtitle": "G-Note AI 可作為 Web App、Chrome 擴充功能無縫執行，並可作為桌面或行動裝置應用程式 (PWA) 安裝在任何裝置上。",
+    "mobile": "行動裝置 App (PWA)",
+    "desktop": "桌面端 App (PWA)",
+    "browser": "Chrome 擴充功能",
+    "miniApp": "Web 版本",
+    "getStarted": "啟動 G-Note AI",
+    "buttons": {
+      "webApp": "Web App",
+      "addToChrome": "新增至 Chrome",
+      "installApp": "安裝應用程式"
+    }
+  },
+  "footer": {
+    "tagline": "專為現代思想家打造的最先進 AI 驅動筆記應用程式。",
+    "copyright": "© {{year}} G-Note AI. 保留所有權利。",
+    "telegramLink": "t.me/GNoteAI",
+    "social": {
+      "twitter": "Twitter",
+      "telegram": "Telegram",
+      "github": "GitHub"
+    },
+    "legal": {
+      "privacy": "隱私權政策",
+      "terms": "服務條款"
+    }
+  },
+  "seo": {
+    "title": "G-Note AI — 智能筆記與AI生產力",
+    "description": "G-Note AI 是終極的 AI 驅動筆記應用程式。安全、私密，並在所有設備上同步。將您的想法轉化為智能見解。",
+    "keywords": "筆記, AI筆記, 生產力, markdown編輯器, google drive同步, 私密筆記"
+  }
+}

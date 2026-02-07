@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "blog": "Mises à jour",
+    "interface": "Interface",
+    "features": "Fonctionnalités",
+    "security": "Sécurité",
+    "platforms": "Télécharger"
+  },
+  "common": {
+    "tagline": "Prise de notes intelligente"
+  },
+  "hero": {
+    "title": "La plus avancée des",
+    "titleHighlight": "Notes IA",
+    "subtitle": "Découvrez l'avenir de la prise de notes intelligente avec G-Note AI.",
+    "subtitleSecond": "Une application de notes sécurisée, rapide et riche en fonctionnalités, avec une synchronisation cloud fluide et une puissante assistance IA pour votre productivité.",
+    "downloadNow": "Obtenir G-Note AI",
+    "openWeb": "Ouvrir l'application Web",
+    "heroFeatures": {
+      "editing": {
+        "title": "Édition intelligente",
+        "description": "Un éditeur de blocs puissant avec support Markdown et médias enrichis."
+      },
+      "ai": {
+        "title": "Expérience axée sur l'IA",
+        "description": "Rédigez, résumez et affinez vos notes en un clic."
+      },
+      "privacy": {
+        "title": "Confidentialité avant tout",
+        "description": "Aucun stockage sur serveur. Vos données restent dans votre Drive."
+      },
+      "search": {
+        "title": "Recherche universelle",
+        "description": "Trouvez n'importe quelle note instantanément, quelle que soit la taille de votre bibliothèque."
+      }
+    }
+  },
+  "wallet": {
+    "title": "Interface élégante et moderne",
+    "subtitle": "Découvrez notre interface intuitive et esthétique conçue pour la clarté et la rapidité. Chaque détail est pensé pour une expérience d'écriture et d'organisation parfaite.",
+    "mainInterface": "Aperçu des notes",
+    "mainInterfaceDesc": "Un espace de travail épuré avec un accès instantané à toutes vos pensées",
+    "mainInterfaceAlt": "Interface d'aperçu des notes G-Note AI",
+    "exploreInterface": "Assistant IA",
+    "exploreInterfaceDesc": "Résumez, traduisez et améliorez vos notes grâce à l'IA",
+    "exploreInterfaceAlt": "Interface de l'assistant G-Note AI",
+    "nftInterface": "Médias enrichis",
+    "nftInterfaceDesc": "Intégrez des images, des tableaux et une mise en forme riche sans effort",
+    "nftInterfaceAlt": "Interface médias enrichis G-Note AI"
+  },
+  "features": {
+    "title": "Tout ce dont vous avez besoin dans une seule application",
+    "subtitle": "G-Note AI combine sécurité, édition puissante et fonctionnalités intelligentes pour offrir l'expérience de prise de notes ultime.",
+    "editing": {
+      "title": "Édition intelligente",
+      "description": "Écrivez avec un éditeur de blocs puissant prenant en charge le Markdown, le texte enrichi et les médias intégrés pour une créativité maximale."
+    },
+    "ai": {
+      "title": "Expérience axée sur l'IA",
+      "description": "Laissez l'IA vous aider à rédiger, résumer et affiner vos pensées. Transformez des notes désordonnées en idées structurées en un seul clic."
+    },
+    "privacy": {
+      "title": "Confidentialité avant tout",
+      "description": "Aucun stockage sur serveur, transport chiffré et aucun suivi tiers. Votre propriété intellectuelle reste privée et sécurisée sur votre Drive."
+    },
+    "search": {
+      "title": "Recherche universelle",
+      "description": "Recherche instantanée et puissante dans toutes vos notes. Trouvez n'importe quelle pensée ou détail au moment où vous en avez besoin, peu importe la taille de votre bibliothèque."
+    },
+    "voice": {
+      "title": "Écriture manuscrite et voix",
+      "description": "Exprimez-vous naturellement avec des outils de dessin intégrés et la saisie vocale pour prendre des notes les mains libres."
+    },
+    "ui": {
+      "title": "Interface utilisateur moderne",
+      "description": "Une interface belle et minimaliste avec un mode sombre fluide et des animations douces conçues pour la concentration."
+    }
+  },
+  "blog": {
+    "title": "Fonctionnalités clés",
+    "subtitle": "Découvrez ce qui fait de G-Note AI le compagnon de prise de notes idéal pour la productivité moderne.",
+    "viewAll": "Explorer toutes les fonctionnalités",
+    "featureHighlights": {
+      "aiAssistant": {
+        "title": "Assistant de contenu propulsé par l'IA",
+        "excerpt": "Transformez votre écriture avec une assistance IA intelligente. Résumez instantanément vos notes, améliorez la grammaire et la clarté, traduisez dans plus de 30 langues et extrayez des tâches exploitables. Changez votre ton pour l'adapter à n'importe quel contexte, des e-mails professionnels aux publications décontractées. Ne payez que ce que vous utilisez avec des crédits flexibles, sans abonnement requis.",
+        "badge": "Fonctionnalités IA"
+      },
+      "driveSync": {
+        "title": "Synchro Google Drive + Hors ligne d'abord",
+        "excerpt": "Vos notes, votre contrôle. Stockées exclusivement sur votre Google Drive personnel, jamais sur des serveurs tiers. Travaillez n'importe où avec une fonctionnalité hors ligne complète, puis synchronisez automatiquement une fois en ligne. La résolution intelligente des conflits gère les modifications sur plusieurs appareils de manière transparente.",
+        "badge": "Confidentialité avant tout"
+      },
+      "collaboration": {
+        "title": "Collaboration en temps réel",
+        "excerpt": "Collaborez sans effort grâce à la technologie peer-to-peer. Partagez un code simple à 6 chiffres et éditez ensemble instantanément. Construit sur WebRTC avec résolution automatique des conflits : les modifications se synchronisent en temps réel sans latence serveur. Fonctionne parfaitement sur les réseaux WiFi, 4G et 5G.",
+        "badge": "Collaboration P2P"
+      }
+    }
+  },
+  "security": {
+    "title": "Une sécurité en laquelle vous pouvez avoir confiance",
+    "subtitle": "Vos pensées sont précieuses. Elles sont protégées par l'infrastructure de Google et notre engagement envers une confidentialité absolue des données.",
+    "audited": "Confidentialité et contrôle",
+    "auditedDesc": "G-Note AI utilise votre Google Drive personnel pour le stockage. Nous ne stockons jamais votre texte brut sur nos serveurs, garantissant que vous conservez 100 % de la propriété et de la confidentialité de vos données.",
+    "endToEndEncryption": {
+      "title": "Sécurité de la synchronisation cloud",
+      "description": "Les données sont synchronisées directement avec votre compte Google Drive, protégées par l'authentification OAuth2, leader du secteur."
+    },
+    "biometricAuth": {
+      "title": "Collaboration P2P",
+      "description": "La collaboration en temps réel utilise des connexions directes peer-to-peer via WebRTC pour des sessions d'édition sécurisées et rapides."
+    },
+    "hardwareWallet": {
+      "title": "Support hors ligne",
+      "description": "La capacité hors ligne complète garantit que vos notes restent d'abord sur votre appareil. La synchronisation a lieu UNIQUEMENT lorsque vous êtes en ligne."
+    },
+    "privacyFirst": {
+      "title": "Aucun stockage serveur",
+      "description": "Nous ne possédons pas vos données. Vos notes vivent sur votre Drive, ce qui signifie qu'aucun tiers ne peut accéder à vos pensées."
+    },
+    "multiSignature": {
+      "title": "Historique des versions",
+      "description": "Protégez-vous contre les modifications accidentelles avec un historique complet des versions pour restaurer les états précédents des notes."
+    },
+    "decentralizedInfra": {
+      "title": "Open Source MIT",
+      "description": "Notre base de code est transparente et open source, permettant à la communauté de vérifier nos promesses de confidentialité."
+    },
+    "badges": {
+      "openSource": "Open Source (MIT)",
+      "googleDrive": "Cloud Google Drive",
+      "privacyFocused": "Axé sur la confidentialité"
+    }
+  },
+  "platforms": {
+    "title": "Disponible sur toutes les plateformes",
+    "subtitle": "G-Note AI fonctionne parfaitement en tant qu'application Web, extension Chrome et peut être installée sur n'importe quel appareil comme application de bureau ou mobile.",
+    "mobile": "App Mobile (PWA)",
+    "desktop": "App Bureau (PWA)",
+    "browser": "Extension Chrome",
+    "miniApp": "Version Web",
+    "getStarted": "Lancer G-Note AI",
+    "buttons": {
+      "webApp": "Application Web",
+      "addToChrome": "Ajouter à Chrome",
+      "installApp": "Installer l'app"
+    }
+  },
+  "footer": {
+    "tagline": "L'application de prise de notes propulsée par l'IA la plus avancée pour les penseurs modernes.",
+    "copyright": "© {{year}} G-Note AI. Tous droits réservés.",
+    "telegramLink": "t.me/GNoteAI",
+    "social": {
+      "twitter": "Twitter",
+      "telegram": "Telegram",
+      "github": "GitHub"
+    },
+    "legal": {
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation"
+    }
+  },
+  "seo": {
+    "title": "G-Note AI — Prise de notes intelligente et productivité IA",
+    "description": "G-Note AI est l'application de prise de notes ultime alimentée par l'IA. Sécurisée, privée et synchronisée sur tous vos appareils. Transformez vos idées en informations intelligentes.",
+    "keywords": "prise de notes, notes IA, productivité, éditeur markdown, synchronisation google drive, notes privées"
+  }
+}

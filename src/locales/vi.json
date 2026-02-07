@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "blog": "Cập nhật",
+    "interface": "Giao diện",
+    "features": "Tính năng",
+    "security": "Bảo mật",
+    "platforms": "Tải xuống"
+  },
+  "common": {
+    "tagline": "Ghi chú thông minh"
+  },
+  "hero": {
+    "title": "Tiên tiến nhất",
+    "titleHighlight": "Ghi chú AI",
+    "subtitle": "Trải nghiệm tương lai của việc ghi chú thông minh với G-Note AI.",
+    "subtitleSecond": "Ứng dụng ghi chú an toàn, nhanh chóng và giàu tính năng với khả năng đồng bộ đám mây liền mạch và sự hỗ trợ mạnh mẽ của AI cho hiệu suất làm việc của bạn.",
+    "downloadNow": "Tải G-Note AI",
+    "openWeb": "Mở Web App",
+    "heroFeatures": {
+      "editing": {
+        "title": "Chỉnh sửa thông minh",
+        "description": "Trình soạn thảo khối mạnh mẽ hỗ trợ Markdown và đa phương tiện phong phú."
+      },
+      "ai": {
+        "title": "Trải nghiệm ưu tiên AI",
+        "description": "Soạn thảo, tóm tắt và tinh chỉnh ghi chú chỉ với một cú nhấp chuột."
+      },
+      "privacy": {
+        "title": "Ưu tiên quyền riêng tư",
+        "description": "Không lưu trữ trên máy chủ. Dữ liệu của bạn nằm trong Drive của bạn."
+      },
+      "search": {
+        "title": "Tìm kiếm toàn diện",
+        "description": "Tìm bất kỳ ghi chú nào ngay lập tức, bất kể thư viện của bạn lớn đến đâu."
+      }
+    }
+  },
+  "wallet": {
+    "title": "Giao diện hiện đại & tinh tế",
+    "subtitle": "Trải nghiệm giao diện trực quan và đẹp mắt của chúng tôi được thiết kế cho sự rõ ràng và tốc độ. Mọi chi tiết đều được chế tác cho trải nghiệm viết và sắp xếp hoàn hảo.",
+    "mainInterface": "Tổng quan ghi chú",
+    "mainInterfaceDesc": "Không gian làm việc gọn gàng với khả năng truy cập tức thì vào mọi suy nghĩ của bạn",
+    "mainInterfaceAlt": "Giao diện tổng quan ghi chú G-Note AI",
+    "exploreInterface": "Trợ lý AI",
+    "exploreInterfaceDesc": "Tóm tắt, dịch và nâng cao ghi chú của bạn với AI",
+    "exploreInterfaceAlt": "Giao diện trợ lý G-Note AI",
+    "nftInterface": "Đa phương tiện phong phú",
+    "nftInterfaceDesc": "Chèn hình ảnh, bảng và định dạng phong phú một cách dễ dàng",
+    "nftInterfaceAlt": "Giao diện đa phương tiện G-Note AI"
+  },
+  "features": {
+    "title": "Mọi thứ bạn cần trong một ứng dụng",
+    "subtitle": "G-Note AI kết hợp bảo mật, khả năng chỉnh sửa mạnh mẽ và các tính năng thông minh để mang lại trải nghiệm ghi chú tối ưu.",
+    "editing": {
+      "title": "Chỉnh sửa thông minh",
+      "description": "Viết với trình soạn thảo dựa trên khối mạnh mẽ hỗ trợ Markdown, văn bản phong phú và phương tiện tích hợp để tối đa hóa sự sáng tạo."
+    },
+    "ai": {
+      "title": "Trải nghiệm ưu tiên AI",
+      "description": "Hãy để AI giúp bạn soạn thảo, tóm tắt và tinh chỉnh suy nghĩ của mình. Biến các ghi chú lộn xộn thành những thông tin chi tiết có cấu trúc chỉ với một cú nhấp chuột."
+    },
+    "privacy": {
+      "title": "Ưu tiên quyền riêng tư",
+      "description": "Không lưu trữ trên máy chủ, truyền tải được mã hóa và không theo dõi bởi bên thứ ba. Tài sản trí tuệ của bạn được giữ riêng tư và an toàn trong Drive của bạn."
+    },
+    "search": {
+      "title": "Tìm kiếm toàn diện",
+      "description": "Tìm kiếm tức thì, mạnh mẽ trên tất cả các ghi chú của bạn. Tìm bất kỳ ý tưởng hoặc chi tiết nào ngay khi bạn cần, bất kể thư viện của bạn lớn đến đâu."
+    },
+    "voice": {
+      "title": "Chữ viết tay & Giọng nói",
+      "description": "Thể hiện bản thân một cách tự nhiên với các công cụ vẽ tích hợp và nhập liệu giọng nói thành văn bản để ghi chú rảnh tay."
+    },
+    "ui": {
+      "title": "Giao diện người dùng hiện đại",
+      "description": "Một giao diện tối giản, đẹp mắt với chế độ tối liền mạch và các hoạt ảnh mượt mà được thiết kế để tăng sự tập trung."
+    }
+  },
+  "blog": {
+    "title": "Tính năng chính",
+    "subtitle": "Khám phá điều khiến G-Note AI trở thành người bạn đồng hành ghi chú hoàn hảo cho năng suất hiện đại.",
+    "viewAll": "Khám phá tất cả tính năng",
+    "featureHighlights": {
+      "aiAssistant": {
+        "title": "Trợ lý nội dung AI",
+        "excerpt": "Biến đổi bài viết của bạn với sự hỗ trợ thông minh từ AI. Tóm tắt ghi chú tức thì, cải thiện ngữ pháp và độ rõ ràng, dịch sang hơn 30 ngôn ngữ và trích xuất các tác vụ khả thi. Thay đổi giọng văn để phù hợp với mọi ngữ cảnh—từ email chuyên nghiệp đến các bài đăng thông thường. Chỉ trả tiền cho những gì bạn sử dụng với các khoản tín dụng linh hoạt, không yêu cầu đăng ký.",
+        "badge": "Tính năng AI"
+      },
+      "driveSync": {
+        "title": "Đồng bộ Google Drive + Ưu tiên Offline",
+        "excerpt": "Ghi chú của bạn, quyền kiểm soát của bạn. Được lưu trữ độc quyền trong Google Drive cá nhân của bạn—không bao giờ trên máy chủ bên thứ ba. Làm việc mọi nơi với đầy đủ chức năng offline, sau đó tự động đồng bộ khi trực tuyến. Giải quyết xung đột thông minh xử lý các chỉnh sửa trên nhiều thiết bị một cách liền mạch.",
+        "badge": "Ưu tiên quyền riêng tư"
+      },
+      "collaboration": {
+        "title": "Cộng tác thời gian thực",
+        "excerpt": "Cộng tác dễ dàng với công nghệ ngang hàng (peer-to-peer). Chia sẻ mã 6 chữ số đơn giản và cùng chỉnh sửa ngay lập tức. Được xây dựng trên WebRTC với khả năng giải quyết xung đột tự động—thay đổi được đồng bộ theo thời gian thực với độ trễ máy chủ bằng không. Hoạt động liền mạch qua mạng WiFi, 4G và 5G.",
+        "badge": "Cộng tác P2P"
+      }
+    }
+  },
+  "security": {
+    "title": "Bảo mật bạn có thể tin cậy",
+    "subtitle": "Suy nghĩ của bạn là quý giá. Chúng được bảo vệ bởi cơ sở hạ tầng của Google và cam kết của chúng tôi về quyền riêng tư dữ liệu tuyệt đối.",
+    "audited": "Quyền riêng tư & Kiểm soát",
+    "auditedDesc": "G-Note AI tận dụng Google Drive cá nhân của bạn để lưu trữ. Chúng tôi không bao giờ lưu văn bản thô của bạn trên máy chủ của mình, đảm bảo bạn duy trì 100% quyền sở hữu và quyền riêng tư đối với dữ liệu của mình.",
+    "endToEndEncryption": {
+      "title": "Bảo mật đồng bộ đám mây",
+      "description": "Dữ liệu được đồng bộ trực tiếp với tài khoản Google Drive của bạn, được bảo vệ bởi xác thực OAuth2 hàng đầu trong ngành."
+    },
+    "biometricAuth": {
+      "title": "Cộng tác P2P",
+      "description": "Cộng tác thời gian thực sử dụng kết nối ngang hàng trực tiếp qua WebRTC cho các phiên chỉnh sửa an toàn và nhanh chóng."
+    },
+    "hardwareWallet": {
+      "title": "Hỗ trợ ngoại tuyến",
+      "description": "Khả năng ngoại tuyến đầy đủ đảm bảo ghi chú luôn ở trên thiết bị của bạn trước tiên. Đồng bộ CHỈ xảy ra khi bạn trực tuyến."
+    },
+    "privacyFirst": {
+      "title": "Không lưu trữ máy chủ",
+      "description": "Chúng tôi không sở hữu dữ liệu của bạn. Ghi chú của bạn nằm trong Drive của bạn, nghĩa là không bên thứ ba nào có thể truy cập suy nghĩ của bạn."
+    },
+    "multiSignature": {
+      "title": "Lịch sử phiên bản",
+      "description": "Bảo vệ chống lại các thay đổi ngẫu nhiên với lịch sử phiên bản toàn diện để khôi phục các trạng thái ghi chú trước đó."
+    },
+    "decentralizedInfra": {
+      "title": "Mã nguồn mở MIT",
+      "description": "Cơ sở mã của chúng tôi minh bạch và là mã nguồn mở, cho phép cộng đồng xác minh các tuyên bố về quyền riêng tư của chúng tôi."
+    },
+    "badges": {
+      "openSource": "Mã nguồn mở (MIT)",
+      "googleDrive": "Đám mây Google Drive",
+      "privacyFocused": "Tập trung quyền riêng tư"
+    }
+  },
+  "platforms": {
+    "title": "Có sẵn trên mọi nền tảng",
+    "subtitle": "G-Note AI hoạt động liền mạch dưới dạng Web App, Tiện ích mở rộng Chrome và có thể cài đặt trên mọi thiết bị dưới dạng Ứng dụng Máy tính hoặc Di động.",
+    "mobile": "Ứng dụng Di động (PWA)",
+    "desktop": "Ứng dụng Máy tính (PWA)",
+    "browser": "Tiện ích mở rộng Chrome",
+    "miniApp": "Phiên bản Web",
+    "getStarted": "Khởi chạy G-Note AI",
+    "buttons": {
+      "webApp": "Web App",
+      "addToChrome": "Thêm vào Chrome",
+      "installApp": "Cài đặt ứng dụng"
+    }
+  },
+  "footer": {
+    "tagline": "Ứng dụng ghi chú hỗ trợ AI tiên tiến nhất dành cho những người tư duy hiện đại.",
+    "copyright": "© {{year}} G-Note AI. Đã đăng ký bản quyền.",
+    "telegramLink": "t.me/GNoteAI",
+    "social": {
+      "twitter": "Twitter",
+      "telegram": "Telegram",
+      "github": "GitHub"
+    },
+    "legal": {
+      "privacy": "Chính sách bảo mật",
+      "terms": "Điều khoản dịch vụ"
+    }
+  },
+  "seo": {
+    "title": "G-Note AI — Ghi Chú Thông Minh & Hiệu Suất AI",
+    "description": "G-Note AI là ứng dụng ghi chú hỗ trợ AI tối ưu. An toàn, riêng tư và đồng bộ trên mọi thiết bị. Biến ý tưởng của bạn thành thông tin chi tiết thông minh.",
+    "keywords": "ghi chú, ghi chú AI, hiệu suất, trình soạn thảo markdown, đồng bộ google drive, ghi chú riêng tư"
+  }
+}

@@ -1,0 +1,36 @@
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+import path from 'path'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+    plugins: [
+        react(),
+        tailwindcss(),
+    ],
+    resolve: {
+        alias: {
+            '@': path.resolve(__dirname, './src'),
+        },
+    },
+    server: {
+        port: 3001,
+        open: true,
+    },
+    base: '/',
+    build: {
+        outDir: 'dist',
+        sourcemap: false,
+        minify: 'terser',
+        rollupOptions: {
+            output: {
+                manualChunks: {
+                    'react-vendor': ['react', 'react-dom', 'react-router-dom'],
+                    'i18n': ['i18next', 'react-i18next', 'i18next-browser-languagedetector'],
+                    'ui': ['lucide-react', 'framer-motion']
+                }
+            }
+        }
+    }
+})

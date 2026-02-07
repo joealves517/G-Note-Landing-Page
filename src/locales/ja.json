@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "blog": "アップデート",
+    "interface": "インターフェース",
+    "features": "機能",
+    "security": "セキュリティ",
+    "platforms": "ダウンロード"
+  },
+  "common": {
+    "tagline": "インテリジェントなメモ作成"
+  },
+  "hero": {
+    "title": "最も進化した",
+    "titleHighlight": "AIノート",
+    "subtitle": "G-Note AIで、インテリジェントなメモ作成の未来を体験しましょう。",
+    "subtitleSecond": "生産性を高める、安全で高速、かつ多機能なノートアプリ。シームレスなクラウド同期と強力なAIアシスタントを搭載。",
+    "downloadNow": "G-Note AIを入手",
+    "openWeb": "Webアプリを開く",
+    "heroFeatures": {
+      "editing": {
+        "title": "インテリジェント編集",
+        "description": "Markdownとリッチメディアに対応した強力なブロックエディタ。"
+      },
+      "ai": {
+        "title": "AIファースト体験",
+        "description": "ワンクリックでメモの下書き作成、要約、推敲が可能。"
+      },
+      "privacy": {
+        "title": "プライバシー重視",
+        "description": "サーバー保存なし。データはあなたのDriveに留まります。"
+      },
+      "search": {
+        "title": "ユニバーサル検索",
+        "description": "ライブラリのサイズに関わらず、あらゆるメモを瞬時に検索。"
+      }
+    }
+  },
+  "wallet": {
+    "title": "エレガントでモダンなインターフェース",
+    "subtitle": "明快さとスピードを追求した、直感的で美しいインターフェースを体験してください。細部までこだわり、完璧な執筆と整理の体験を提供します。",
+    "mainInterface": "ノート概要",
+    "mainInterfaceDesc": "すべての思考に即座にアクセスできる、クリーンなワークスペース",
+    "mainInterfaceAlt": "G-Note AI ノート概要インターフェース",
+    "exploreInterface": "AIアシスタント",
+    "exploreInterfaceDesc": "AIでメモを要約、翻訳、強化",
+    "exploreInterfaceAlt": "G-Note AI アシスタントインターフェース",
+    "nftInterface": "リッチメディア",
+    "nftInterfaceDesc": "画像、表、リッチなフォーマットを簡単に埋め込み可能",
+    "nftInterfaceAlt": "G-Note AI リッチメディアインターフェース"
+  },
+  "features": {
+    "title": "必要なすべてをひとつのアプリに",
+    "subtitle": "G-Note AIは、セキュリティ、強力な編集機能、そしてインテリジェントな機能を融合させ、究極のノート体験を提供します。",
+    "editing": {
+      "title": "インテリジェント編集",
+      "description": "Markdown、リッチテキスト、埋め込みメディアに対応した強力なブロックベースのエディタで、創造性を最大限に発揮できます。"
+    },
+    "ai": {
+      "title": "AIファースト体験",
+      "description": "AIに下書き、要約、思考の整理を任せましょう。散らかったメモをワンクリックで構造化されたインサイトに変換します。"
+    },
+    "privacy": {
+      "title": "プライバシー重視",
+      "description": "サーバー保存なし、暗号化通信、サードパーティの追跡なし。知的財産はあなたのDrive内で安全かつプライベートに保たれます。"
+    },
+    "search": {
+      "title": "ユニバーサル検索",
+      "description": "すべてのメモを対象とした、瞬時で強力な検索。ライブラリがどれほど大きくても、必要な思考や詳細をその瞬間に見つけ出します。"
+    },
+    "voice": {
+      "title": "手書き & 音声",
+      "description": "内蔵の描画ツールと音声テキスト変換入力により、ハンズフリーで自然な表現が可能です。"
+    },
+    "ui": {
+      "title": "モダンなUI",
+      "description": "集中力を高めるために設計された、シームレスなダークモードと滑らかなアニメーションを備えた美しくミニマルなインターフェース。"
+    }
+  },
+  "blog": {
+    "title": "主な機能",
+    "subtitle": "現代の生産性において、なぜG-Note AIが完璧なパートナーなのかを発見してください。",
+    "viewAll": "すべての機能を見る",
+    "featureHighlights": {
+      "aiAssistant": {
+        "title": "AI搭載コンテンツアシスタント",
+        "excerpt": "インテリジェントなAIアシスタンスで執筆を変革します。メモの即時要約、文法と明瞭さの改善、30以上の言語への翻訳、実行可能なタスクの抽出が可能です。プロフェッショナルなメールからカジュアルな投稿まで、あらゆる文脈に合わせてトーンを変更できます。柔軟なクレジット制で、使った分だけ支払い。サブスクリプションは不要です。",
+        "badge": "AI機能"
+      },
+      "driveSync": {
+        "title": "Google Drive同期 + オフラインファースト",
+        "excerpt": "ノートはあなたのもの、管理もあなた次第。個人のGoogle Driveにのみ保存され、サードパーティのサーバーには決して保存されません。完全なオフライン機能でどこでも作業でき、オンラインになると自動的に同期されます。インテリジェントな競合解決機能により、複数デバイス間での編集もシームレスに処理します。",
+        "badge": "プライバシー重視"
+      },
+      "collaboration": {
+        "title": "リアルタイム・コラボレーション",
+        "excerpt": "P2P技術で簡単に共同作業。シンプルな6桁のコードを共有するだけで、即座に一緒に編集できます。WebRTC上に構築され、自動競合解決機能を搭載。変更はサーバー遅延なしでリアルタイムに同期されます。WiFi、4G、5Gネットワークでシームレスに動作します。",
+        "badge": "P2Pコラボレーション"
+      }
+    }
+  },
+  "security": {
+    "title": "信頼できるセキュリティ",
+    "subtitle": "あなたの思考は貴重です。それらはGoogleのインフラと、絶対的なデータプライバシーに対する私たちのコミットメントによって守られています。",
+    "audited": "プライバシーと管理",
+    "auditedDesc": "G-Note AIは保存先として個人のGoogle Driveを活用します。私たちはサーバーに生のテキストを保存することは決してなく、あなたがデータの所有権とプライバシーを100%維持することを保証します。",
+    "endToEndEncryption": {
+      "title": "クラウド同期セキュリティ",
+      "description": "データは業界最高水準のOAuth2認証で保護され、Google Driveアカウントに直接同期されます。"
+    },
+    "biometricAuth": {
+      "title": "P2Pコラボレーション",
+      "description": "リアルタイム・コラボレーションは、WebRTC経由の直接的なP2P接続を使用し、安全で高速な編集セッションを実現します。"
+    },
+    "hardwareWallet": {
+      "title": "オフラインサポート",
+      "description": "完全なオフライン機能により、メモはまずデバイス上に保持されます。同期はオンラインになった場合に「のみ」行われます。"
+    },
+    "privacyFirst": {
+      "title": "サーバー保存ゼロ",
+      "description": "私たちはあなたのデータを所有しません。メモはあなたのDriveに存在するため、第三者があなたの思考にアクセスすることはできません。"
+    },
+    "multiSignature": {
+      "title": "バージョン履歴",
+      "description": "包括的なバージョン履歴により、偶発的な変更から保護し、以前のメモの状態を復元できます。"
+    },
+    "decentralizedInfra": {
+      "title": "MITオープンソース",
+      "description": "コードベースは透明かつオープンソースであり、コミュニティが私たちのプライバシーに関する主張を検証できます。"
+    },
+    "badges": {
+      "openSource": "オープンソース (MIT)",
+      "googleDrive": "Google Driveクラウド",
+      "privacyFocused": "プライバシー重視"
+    }
+  },
+  "platforms": {
+    "title": "全プラットフォーム対応",
+    "subtitle": "G-Note AIはWebアプリ、Chrome拡張機能としてシームレスに動作し、デスクトップアプリまたはモバイルアプリとしてあらゆるデバイスにインストールできます。",
+    "mobile": "モバイルアプリ (PWA)",
+    "desktop": "デスクトップアプリ (PWA)",
+    "browser": "Chrome拡張機能",
+    "miniApp": "Web版",
+    "getStarted": "G-Note AIを起動",
+    "buttons": {
+      "webApp": "Webアプリ",
+      "addToChrome": "Chromeに追加",
+      "installApp": "アプリをインストール"
+    }
+  },
+  "footer": {
+    "tagline": "現代の思想家のための、最も進化したAI搭載ノートアプリケーション。",
+    "copyright": "© {{year}} G-Note AI. All rights reserved.",
+    "telegramLink": "t.me/GNoteAI",
+    "social": {
+      "twitter": "Twitter",
+      "telegram": "Telegram",
+      "github": "GitHub"
+    },
+    "legal": {
+      "privacy": "プライバシーポリシー",
+      "terms": "利用規約"
+    }
+  },
+  "seo": {
+    "title": "G-Note AI — インテリジェントなメモ取りとAI生産性",
+    "description": "G-Note AIは、究極のAI搭載メモアプリです。安全でプライベート、すべてのデバイスで同期。アイデアをインテリジェントな洞察に変えます。",
+    "keywords": "メモ取り, AIメモ, 生産性, マークダウンエディタ, Googleドライブ同期, プライベートメモ"
+  }
+}

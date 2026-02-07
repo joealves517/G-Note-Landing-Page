@@ -51,7 +51,7 @@ import walletNftImage from './assets/822fa028fdf590702f11c601c365b8d4c8de5319.pn
 
 // Import new blog post images
 import blogImage38 from './assets/feature-ai.png'; // AI
-import blogImage37 from './assets/feature-sync.png'; // Sync
+import blogImage37 from './assets/feature-sync.jpg'; // Sync
 import blogImage36 from './assets/feature-collab.png'; // Realtime
 import { LINKS } from './lib/urls';
 

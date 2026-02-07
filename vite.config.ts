@@ -18,7 +18,7 @@ export default defineConfig(({ mode }) => ({
         port: 3001,
         open: true,
     },
-    base: mode === 'production' ? '/G-Note-Landing-Page/' : '/',
+    base: './',
     build: {
         outDir: 'dist',
         sourcemap: false,

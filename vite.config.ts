@@ -18,7 +18,7 @@ export default defineConfig({
         port: 3001,
         open: true,
     },
-    base: '/',
+    base: '/G-Note-Landing-Page/',
     build: {
         outDir: 'dist',
         sourcemap: false,

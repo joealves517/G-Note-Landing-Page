@@ -129,7 +129,7 @@ export function Header({ theme, setTheme }: HeaderProps) {
 
               <div className="hidden sm:flex items-center gap-2">
                 <a
-                  href="https://app.gnoteai.com"
+                  href="https://gnoteai.com"
                   className="px-4 py-2 text-sm font-normal text-neutral-600 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-white rounded-full hover:bg-neutral-100/80 dark:hover:bg-neutral-800/80 transition-colors whitespace-nowrap"
                 >
                   {t('hero.openWeb') || 'Log in'}
@@ -199,7 +199,7 @@ export function Header({ theme, setTheme }: HeaderProps) {
                 </button>
 
                 <a
-                  href="https://app.gnoteai.com"
+                  href="https://gnoteai.com"
                   className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 text-base font-semibold text-neutral-700 dark:text-neutral-300 border border-neutral-200 dark:border-neutral-800 rounded-xl hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
                 >
                   {t('hero.openWeb') || 'Log in'}

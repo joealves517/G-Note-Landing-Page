@@ -89,7 +89,7 @@ function HeroSection() {
   };
 
   return (
-    <section className="relative overflow-hidden min-h-screen flex items-center justify-center pt-48 md:pt-56 pb-16 md:pb-20">
+    <section className="relative overflow-visible min-h-screen flex items-center justify-center pt-48 md:pt-56 pb-16 md:pb-20">
       <LiquidBackground />
 
       <div className="container mx-auto px-4 md:px-6 relative z-10">
@@ -217,6 +217,8 @@ function CarouselSection({ children, className = "" }: { children: React.ReactNo
   };
 
   const handleMouseDown = (e: React.MouseEvent) => {
+    // Disable drag on desktop to allow text selection
+    if (window.innerWidth >= 1024) return;
     setStartX(e.clientX);
     setIsDragging(true);
   };
@@ -414,7 +416,7 @@ function WalletShowcase() {
     {
       title: t('wallet.mainInterface'),
       description: t('wallet.mainInterfaceDesc'),
-      image: walletHomeImage,
+      image: walletNftImage,
       alt: t('wallet.mainInterfaceAlt')
     },
     {
@@ -426,13 +428,13 @@ function WalletShowcase() {
     {
       title: t('wallet.nftInterface'),
       description: t('wallet.nftInterfaceDesc'),
-      image: walletNftImage,
+      image: walletHomeImage,
       alt: t('wallet.nftInterfaceAlt')
     }
   ];
 
   return (
-    <section id="interface" className="py-12 md:py-16 relative overflow-hidden">
+    <section id="interface" className="py-12 md:py-16 relative overflow-visible">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-10 md:mb-16">
           <h2 className="text-foreground mb-4 md:mb-6 px-4">
@@ -527,7 +529,7 @@ function FeaturesSection() {
   ];
 
   return (
-    <section id="features" className="py-12 md:py-16 relative overflow-hidden">
+    <section id="features" className="py-12 md:py-16 relative overflow-visible">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-10 md:mb-16">
           <h2 className="text-foreground mb-4 md:mb-6 px-4">
@@ -598,7 +600,7 @@ function SecuritySection() {
   ];
 
   return (
-    <section id="security" className="py-12 md:py-16 relative overflow-hidden">
+    <section id="security" className="py-12 md:py-16 relative overflow-visible">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-10 md:mb-16">
           <h2 className="text-foreground mb-4 md:mb-6 px-4">
@@ -654,7 +656,7 @@ function SecuritySection() {
 function PlatformsSection() {
   const { t } = useTranslation();
   return (
-    <section id="platforms" className="py-12 md:py-16 relative overflow-hidden">
+    <section id="platforms" className="py-12 md:py-16 relative overflow-visible">
       <div className="absolute inset-0">
         <div className="liquid-blob liquid-blob-1" />
         <div className="liquid-blob liquid-blob-2" />
@@ -760,7 +762,7 @@ function PlatformsSection() {
 function Footer({ theme }: { theme: 'light' | 'dark' }) {
   const { t } = useTranslation();
   return (
-    <footer className="py-12 md:py-20 relative overflow-hidden bg-neutral-50/50 dark:bg-neutral-900/30">
+    <footer className="py-12 md:py-20 relative overflow-visible bg-neutral-50/50 dark:bg-neutral-900/30">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center text-center">
           {/* Logo & Brand */}

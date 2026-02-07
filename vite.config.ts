@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import path from 'path'
 
 // https://vitejs.dev/config/
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
     plugins: [
         react(),
         tailwindcss(),
@@ -18,7 +18,7 @@ export default defineConfig({
         port: 3001,
         open: true,
     },
-    base: '/G-Note-Landing-Page/',
+    base: mode === 'production' ? '/G-Note-Landing-Page/' : '/',
     build: {
         outDir: 'dist',
         sourcemap: false,
@@ -33,4 +33,4 @@ export default defineConfig({
             }
         }
     }
-})
+}))

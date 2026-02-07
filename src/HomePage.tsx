@@ -40,8 +40,8 @@ import { SEO } from './components/SEO';
 // import './Home.css'; // Removed in favor of globals.css which uses Tailwind v4 properly
 
 // Import G-Note logos
-import gNoteLogo from '../public/g-note.svg';
-import gNoteLogoDark from '../public/g-note-dark.svg';
+import gNoteLogo from './assets/g-note.svg';
+import gNoteLogoDark from './assets/g-note-dark.svg';
 
 // Custom G-Note AI Logo Component with theme support
 function GNoteAILogo({ className, theme }: { className?: string, theme: 'light' | 'dark' }) {

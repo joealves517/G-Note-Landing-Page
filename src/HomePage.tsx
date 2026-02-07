@@ -19,7 +19,8 @@ import {
   Globe,
   Chrome,
   Monitor,
-  Smartphone
+  Smartphone,
+  Rocket
 } from "lucide-react";
 
 // Import interface images and new blog images
@@ -95,7 +96,7 @@ function HeroSection() {
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="text-center max-w-4xl xl:max-w-6xl mx-auto">
           <div className="mb-8 md:mb-10">
-            <h1 className="text-foreground mb-3 leading-tight px-4">
+            <h1 className="text-4xl xs:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-foreground mb-3 leading-tight px-4">
               {t('hero.title')}
             </h1>
             <div className="iridescent-text-enhanced px-4">
@@ -749,7 +750,7 @@ function PlatformsSection() {
             className="liquid-button px-10 md:px-14 py-4 md:py-5 text-lg md:text-xl font-medium text-white dark:text-black rounded-2xl inline-flex items-center gap-4 shadow-xl hover:scale-105 transition-transform"
           >
             <span className="flex items-center gap-4">
-              <Sparkles className="w-5 h-5 md:w-6 md:h-6" />
+              <Rocket className="w-5 h-5 md:w-6 md:h-6" />
               {t('platforms.getStarted')}
             </span>
           </a>
@@ -762,9 +763,9 @@ function PlatformsSection() {
 function Footer({ theme }: { theme: 'light' | 'dark' }) {
   const { t } = useTranslation();
   return (
-    <footer className="py-12 md:py-20 relative overflow-visible bg-neutral-50/50 dark:bg-neutral-900/30">
+    <footer className="py-12 md:py-20 relative overflow-visible">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="flex flex-col items-center text-center">
+        <div className="liquid-card p-8 md:p-12 flex flex-col items-center text-center">
           {/* Logo & Brand */}
           <div className="mb-10 group">
             <div className="flex flex-col items-center justify-center gap-4">

@@ -20,7 +20,11 @@ import {
   Chrome,
   Monitor,
   Smartphone,
-  Rocket
+  Rocket,
+  Play,
+  Pause,
+  Volume2,
+  VolumeX
 } from "lucide-react";
 
 // Import interface images and new blog images
@@ -760,6 +764,126 @@ function PlatformsSection() {
   );
 }
 
+function VideoShowcase() {
+  const { t } = useTranslation();
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [isMuted, setIsMuted] = useState(true);
+
+  const togglePlay = () => {
+    if (videoRef.current) {
+      if (isPlaying) {
+        videoRef.current.pause();
+      } else {
+        videoRef.current.play();
+      }
+      setIsPlaying(!isPlaying);
+    }
+  };
+
+  const toggleMute = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (videoRef.current) {
+      videoRef.current.muted = !isMuted;
+      setIsMuted(!isMuted);
+    }
+  };
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            videoRef.current?.play().catch(() => {
+              // Autoplay might be blocked by browser without user interaction
+              setIsPlaying(false);
+            });
+            setIsPlaying(true);
+          } else {
+            videoRef.current?.pause();
+            setIsPlaying(false);
+          }
+        });
+      },
+      { threshold: 0.5 } // Play when 50% of the video is visible
+    );
+
+    if (videoRef.current) {
+      observer.observe(videoRef.current);
+    }
+
+    return () => {
+      if (videoRef.current) {
+        observer.unobserve(videoRef.current);
+      }
+    };
+  }, []);
+
+  return (
+    <section className="py-12 md:py-20 relative overflow-visible">
+      <div className="container mx-auto px-4 md:px-6">
+        <div className="text-center mb-10 md:mb-16">
+          <h2 className="text-foreground mb-4 md:mb-6 px-4">
+            {t('video.title')}
+          </h2>
+          <p className="text-xl md:text-2xl lg:text-3xl text-muted-foreground-enhanced max-w-3xl lg:max-w-4xl mx-auto px-4">
+            {t('video.subtitle')}
+          </p>
+        </div>
+
+        <div className="max-w-7xl mx-auto relative group">
+          {/* Glow effect */}
+          <div className="absolute -inset-1 bg-gradient-to-r from-primary via-purple-500 to-pink-500 opacity-30 blur-2xl rounded-[2rem] group-hover:opacity-50 transition-opacity duration-500"></div>
+
+          <div className="relative rounded-[2rem] overflow-hidden shadow-2xl border border-white/10 bg-black/50 aspect-video ring-1 ring-white/20">
+            <video
+              ref={videoRef}
+              className="w-full h-full object-cover"
+              playsInline
+              loop
+              muted={isMuted}
+              onClick={togglePlay}
+              poster="/images/video-poster.png"
+            >
+              <source src="/videos/promo-video.mp4" type="video/mp4" />
+            </video>
+
+            {/* Play Button Overlay - Only show if paused AND user manually paused or initial state */}
+            {!isPlaying && (
+              <div
+                className="absolute inset-0 flex items-center justify-center bg-black/10 transition-all duration-300 cursor-pointer group/overlay hover:bg-black/20"
+                onClick={togglePlay}
+              >
+                <button className="w-20 h-20 md:w-24 md:h-24 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center border border-white/30 shadow-lg group-hover/overlay:scale-110 transition-transform duration-300">
+                  <Play className="w-8 h-8 md:w-10 md:h-10 text-white fill-white ml-2" />
+                </button>
+              </div>
+            )}
+
+            {/* Controls only visible when playing */}
+            {isPlaying && (
+              <div className="absolute bottom-6 right-6 flex gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button
+                  onClick={toggleMute}
+                  className="p-3 bg-black/40 backdrop-blur-md rounded-full text-white hover:bg-black/60 transition-colors border border-white/10"
+                >
+                  {isMuted ? <VolumeX className="w-6 h-6" /> : <Volume2 className="w-6 h-6" />}
+                </button>
+                <button
+                  onClick={togglePlay}
+                  className="p-3 bg-black/40 backdrop-blur-md rounded-full text-white hover:bg-black/60 transition-colors border border-white/10"
+                >
+                  <Pause className="w-6 h-6 fill-white" />
+                </button>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function Footer({ theme }: { theme: 'light' | 'dark' }) {
   const { t } = useTranslation();
   return (
@@ -833,6 +957,7 @@ export default function HomePage() {
       <Header theme={theme} setTheme={setTheme} />
       <main>
         <HeroSection />
+        <VideoShowcase />
         <BlogSection />
         <WalletShowcase />
         <FeaturesSection />

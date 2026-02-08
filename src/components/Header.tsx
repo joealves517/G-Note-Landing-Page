@@ -85,7 +85,7 @@ export function Header({ theme, setTheme }: HeaderProps) {
             {/* Logo */}
             <button
               onClick={scrollToTop}
-              className="flex items-center gap-2 group focus:outline-none pl-3 pr-2 py-1.5 rounded-full hover:bg-neutral-100/50 dark:hover:bg-neutral-800/50 transition-colors"
+              className="flex items-center gap-2 group focus:outline-none pl-3 pr-2 py-1.5 rounded-full hover:bg-neutral-100/50 dark:hover:bg-neutral-800/50 transition-colors flex-shrink-0"
             >
               <GNoteAILogo className="w-6 h-6 sm:w-7 sm:h-7 transition-transform group-hover:scale-110" theme={theme} />
               <span className="text-sm sm:text-lg font-normal tracking-tight text-neutral-800 dark:text-neutral-100 whitespace-nowrap">
@@ -102,7 +102,7 @@ export function Header({ theme, setTheme }: HeaderProps) {
                 <button
                   key={item.key}
                   onClick={() => scrollToSection(item.key)}
-                  className="px-3 py-2 text-sm font-normal text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white rounded-full hover:bg-neutral-100/80 dark:hover:bg-neutral-800/80 transition-all duration-200 whitespace-nowrap"
+                  className="px-3 py-2 text-sm font-normal text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white rounded-full hover:bg-neutral-100/80 dark:hover:bg-neutral-800/80 transition-all duration-200 whitespace-nowrap flex-shrink-0"
                 >
                   {t(`nav.${item.key}`)}
                 </button>
@@ -127,18 +127,22 @@ export function Header({ theme, setTheme }: HeaderProps) {
                 )}
               </button>
 
-              <div className="hidden sm:flex items-center gap-2">
+              <div className="hidden sm:flex items-center gap-1 sm:gap-2">
                 <a
                   href="https://gnoteai.com"
-                  className="px-4 py-2 text-sm font-normal text-neutral-600 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-white rounded-full hover:bg-neutral-100/80 dark:hover:bg-neutral-800/80 transition-colors whitespace-nowrap"
+                  className="px-3 md:px-4 py-2 text-sm font-normal text-neutral-600 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-white rounded-full hover:bg-neutral-100/80 dark:hover:bg-neutral-800/80 transition-colors whitespace-nowrap flex items-center gap-1.5 flex-shrink-0"
                 >
-                  {t('hero.openWeb') || 'Log in'}
+                  <ArrowRight className="w-4 h-4" />
+                  <span className="hidden xl:inline">{t('hero.openWeb')}</span>
+                  <span className="hidden md:inline xl:hidden">{t('platforms.buttons.webApp')}</span>
                 </a>
                 <button
                   onClick={() => scrollToSection('platforms')}
-                  className="liquid-button px-5 py-2.5 text-sm font-medium text-white dark:text-black rounded-full shadow-md transition-all duration-300"
+                  className="liquid-button px-4 md:px-5 py-2.5 text-sm font-medium text-white dark:text-black rounded-full shadow-md transition-all duration-300 flex items-center gap-2 flex-shrink-0 whitespace-nowrap"
                 >
-                  {t('hero.downloadNow')}
+                  <Download className="w-4 h-4" />
+                  <span className="hidden lg:inline">{t('hero.downloadNow')}</span>
+                  <span className="hidden md:inline lg:hidden">{t('nav.platforms')}</span>
                 </button>
               </div>
 

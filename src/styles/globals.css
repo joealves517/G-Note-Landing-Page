@@ -1,5 +1,6 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&subset=vietnamese&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&subset=vietnamese&display=swap");
 
 @custom-variant dark (&:is(.dark *));
 
@@ -619,12 +620,12 @@
 
 /* Enhanced blog cards with improved shadow management and blur effects */
 .blog-card-equal-height {
-  background: linear-gradient(145deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
-  backdrop-filter: blur(30px);
-  -webkit-backdrop-filter: blur(30px);
-  border: 1px solid #d8dbdf;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.2) 100%);
+  backdrop-filter: blur(40px) saturate(180%);
+  -webkit-backdrop-filter: blur(40px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.6);
   border-radius: var(--radius-card);
-  box-shadow: none;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
 
   transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   overflow: visible;
@@ -636,10 +637,10 @@
 }
 
 .blog-card-equal-height:hover {
-  transform: none;
-  box-shadow: none;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.15);
 
-  border-color: rgba(255, 255, 255, 0.35);
+  border-color: rgba(255, 255, 255, 0.9);
   z-index: 10;
 }
 
@@ -673,12 +674,12 @@
 
 /* Enhanced dark theme button improvements with blur */
 .ios-surface-dark {
-  background: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(30px) saturate(180%);
-  -webkit-backdrop-filter: blur(30px) saturate(180%);
-  border: 1px solid #d8dbdf;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.2) 100%);
+  backdrop-filter: blur(40px) saturate(180%);
+  -webkit-backdrop-filter: blur(40px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.6);
   border-radius: 20px;
-  box-shadow: none;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
 }
 
 .dark .ios-surface-dark {
@@ -691,12 +692,12 @@
 
 /* Enhanced iOS 26 specific enhancements with blur */
 .ios-surface {
-  background: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(30px) saturate(180%);
-  -webkit-backdrop-filter: blur(30px) saturate(180%);
-  border: 1px solid #d8dbdf;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.2) 100%);
+  backdrop-filter: blur(40px) saturate(180%);
+  -webkit-backdrop-filter: blur(40px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.6);
   border-radius: 20px;
-  box-shadow: none;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
 }
 
 .dark .ios-surface {
@@ -768,21 +769,21 @@
 
 /* Enhanced liquid card with improved blur effects */
 .liquid-card {
-  background: linear-gradient(145deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
-  backdrop-filter: blur(30px);
-  -webkit-backdrop-filter: blur(30px);
-  border: 1px solid #d8dbdf;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.2) 100%);
+  backdrop-filter: blur(40px) saturate(180%);
+  -webkit-backdrop-filter: blur(40px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.6);
   border-radius: var(--radius-card);
-  box-shadow: none;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
 
   transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .liquid-card:hover {
-  transform: none;
-  box-shadow: none;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.15);
 
-  border-color: rgba(255, 255, 255, 0.35);
+  border-color: rgba(255, 255, 255, 0.9);
 }
 
 .dark .liquid-card {
@@ -799,12 +800,12 @@
 }
 
 .liquid-button {
-  background: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(30px) saturate(180%);
-  -webkit-backdrop-filter: blur(30px) saturate(180%);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.2) 100%);
+  backdrop-filter: blur(40px) saturate(180%);
+  -webkit-backdrop-filter: blur(40px) saturate(180%);
   color: #000000;
-  border: 1px solid #d8dbdf;
-  box-shadow: none;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 4px 12px 0 rgba(31, 38, 135, 0.1);
 
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
@@ -833,8 +834,8 @@
 
 .liquid-button:hover {
   transform: translateY(-2px);
-  border-color: rgba(255, 255, 255, 0.2);
-  box-shadow: none;
+  border-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 6px 16px 0 rgba(31, 38, 135, 0.15);
 
 }
 
@@ -906,8 +907,9 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: iridescent-enhanced 8s ease-in-out infinite;
+  font-family: 'Nunito Sans', 'Inter', system-ui, -apple-system, sans-serif;
   font-size: var(--text-7xl);
-  font-weight: var(--font-weight-extrabold);
+  font-weight: 800;
   line-height: 1.1;
 }
 
@@ -951,7 +953,7 @@
 
 /* Enhanced Typography Scale with improved gray text readability */
 h1 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Nunito Sans', 'Inter', system-ui, sans-serif;
   font-size: var(--text-6xl);
   font-weight: var(--font-weight-extrabold);
   line-height: 1.1;
@@ -1033,7 +1035,6 @@ label {
 button {
   font-family: 'Inter', sans-serif;
   font-size: var(--text-base);
-  font-weight: var(--font-weight-semibold);
   line-height: 1.5;
 }
 

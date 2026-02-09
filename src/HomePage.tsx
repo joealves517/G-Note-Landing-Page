@@ -268,7 +268,7 @@ function CarouselSection({ children, className = "" }: { children: React.ReactNo
       {/* Carousel container */}
       <div
         ref={carouselRef}
-        className="overflow-hidden lg:overflow-visible cursor-grab active:cursor-grabbing"
+        className="overflow-hidden lg:overflow-visible cursor-grab active:cursor-grabbing py-8"
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
@@ -278,7 +278,7 @@ function CarouselSection({ children, className = "" }: { children: React.ReactNo
         onMouseLeave={() => setIsDragging(false)}
         style={{ touchAction: 'pan-y' }}
       >
-        <div className="flex lg:grid lg:grid-cols-3 lg:gap-8 transition-transform duration-300 ease-out lg:transform-none"
+        <div className="flex lg:grid lg:grid-cols-3 lg:gap-8 transition-transform duration-300 ease-out lg:!transform-none"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
           {items.map((item, index) => (
             <div

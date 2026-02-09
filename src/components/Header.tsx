@@ -74,35 +74,35 @@ export function Header({ theme, setTheme }: HeaderProps) {
 
   return (
     <>
-      <div className="fixed top-2 sm:top-6 left-0 right-0 z-50 flex justify-center px-4 pointer-events-none">
+      <div className="fixed top-2 left-2 right-2 md:top-6 md:left-0 md:right-0 z-50 flex justify-center md:px-4 pointer-events-none">
         <header
-          className={`pointer-events-auto w-auto rounded-full transition-all duration-300 border backdrop-blur-xl shadow-lg shadow-neutral-200/20 dark:shadow-black/40 ${scrolled || mobileMenuOpen
-            ? "bg-white/80 dark:bg-neutral-900/80 border-neutral-200/60 dark:border-neutral-800/60"
-            : "bg-white/60 dark:bg-neutral-900/60 border-neutral-200/40 dark:border-neutral-800/40 hover:bg-white/80 dark:hover:bg-neutral-900/80 transition-colors"
+          className={`pointer-events-auto w-full md:w-auto md:max-w-[calc(100vw-2rem)] rounded-3xl md:rounded-full transition-all duration-300 border backdrop-blur-xl shadow-sm md:shadow-lg shadow-neutral-200/20 dark:shadow-black/40 ${scrolled || mobileMenuOpen
+            ? "bg-white/85 dark:bg-neutral-900/85 border-neutral-200/60 dark:border-neutral-800/60"
+            : "bg-white/75 dark:bg-neutral-900/75 border-neutral-200/40 dark:border-neutral-800/40 hover:bg-white/90 dark:hover:bg-neutral-900/90 transition-colors"
             }`}
         >
-          <div className="px-1.5 sm:px-2 h-12 sm:h-14 flex items-center gap-1 sm:gap-2">
+          <div className="px-4 md:px-5 h-14 md:h-14 flex items-center justify-between md:justify-start gap-2 md:gap-3 max-w-7xl mx-auto w-full md:w-auto">
             {/* Logo */}
             <button
               onClick={scrollToTop}
-              className="flex items-center gap-2 group focus:outline-none pl-3 pr-2 py-1.5 rounded-full hover:bg-neutral-100/50 dark:hover:bg-neutral-800/50 transition-colors flex-shrink-0"
+              className="flex items-center gap-2 group focus:outline-none py-1.5 rounded-full hover:bg-neutral-100/50 dark:hover:bg-neutral-800/50 transition-colors flex-shrink-0"
             >
-              <GNoteAILogo className="w-6 h-6 sm:w-7 sm:h-7 transition-transform group-hover:scale-110" theme={theme} />
-              <span className="text-sm sm:text-lg font-normal tracking-tight text-neutral-800 dark:text-neutral-100 whitespace-nowrap">
+              <GNoteAILogo className="w-8 h-8 md:w-7 md:h-7 transition-transform group-hover:scale-110" theme={theme} />
+              <span className="text-lg font-bold tracking-tight text-neutral-800 dark:text-neutral-100 whitespace-nowrap">
                 G-Note AI
               </span>
             </button>
 
             {/* Divider */}
-            <div className="w-px h-6 bg-neutral-200 dark:bg-neutral-800 mx-1 hidden md:block" />
+            <div className="w-px h-6 bg-neutral-200 dark:bg-neutral-800 mx-1 hidden lg:block" />
 
             {/* Desktop Navigation */}
-            <nav className="hidden md:flex items-center gap-0.5">
+            <nav className="hidden lg:flex items-center gap-1">
               {navItems.map((item) => (
                 <button
                   key={item.key}
                   onClick={() => scrollToSection(item.key)}
-                  className="px-3 py-2 text-sm font-normal text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white rounded-full hover:bg-neutral-100/80 dark:hover:bg-neutral-800/80 transition-all duration-200 whitespace-nowrap flex-shrink-0"
+                  className="px-3 py-2 text-sm font-medium text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white rounded-full hover:bg-neutral-100/80 dark:hover:bg-neutral-800/80 transition-all duration-200 whitespace-nowrap flex-shrink-0"
                 >
                   {t(`nav.${item.key}`)}
                 </button>
@@ -110,10 +110,10 @@ export function Header({ theme, setTheme }: HeaderProps) {
             </nav>
 
             {/* Divider */}
-            <div className="w-px h-6 bg-neutral-200 dark:bg-neutral-800 mx-1 hidden sm:block" />
+            <div className="w-px h-6 bg-neutral-200 dark:bg-neutral-800 mx-1 hidden lg:block" />
 
             {/* Actions */}
-            <div className="flex items-center gap-1 sm:gap-2 pr-1">
+            <div className="flex items-center gap-2 md:gap-3">
               {/* Theme Toggle */}
               <button
                 onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
@@ -121,37 +121,38 @@ export function Header({ theme, setTheme }: HeaderProps) {
                 aria-label="Toggle theme"
               >
                 {theme === 'light' ? (
-                  <Moon className="w-4 h-4 sm:w-5 sm:h-5" />
+                  <Moon className="w-5 h-5" />
                 ) : (
-                  <Sun className="w-4 h-4 sm:w-5 sm:h-5" />
+                  <Sun className="w-5 h-5" />
                 )}
               </button>
 
-              <div className="hidden sm:flex items-center gap-1 sm:gap-2">
+              <div className="hidden sm:flex items-center gap-2">
                 <a
                   href="https://gnoteai.com"
-                  className="px-3 md:px-4 py-2 text-sm font-normal text-neutral-600 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-white rounded-full hover:bg-neutral-100/80 dark:hover:bg-neutral-800/80 transition-colors whitespace-nowrap flex items-center gap-1.5 flex-shrink-0"
+                  className="px-3 md:px-4 py-2 text-sm font-medium text-neutral-600 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-white rounded-full hover:bg-neutral-100/80 dark:hover:bg-neutral-800/80 transition-colors whitespace-nowrap flex items-center gap-1.5 flex-shrink-0"
                 >
                   <ArrowRight className="w-4 h-4" />
                   <span className="hidden xl:inline">{t('hero.openWeb')}</span>
-                  <span className="hidden md:inline xl:hidden">{t('platforms.buttons.webApp')}</span>
+                  <span className="hidden lg:inline xl:hidden">{t('platforms.buttons.webApp')}</span>
+                  <span className="inline lg:hidden">Web App</span>
                 </a>
                 <button
                   onClick={() => scrollToSection('platforms')}
-                  className="liquid-button px-4 md:px-5 py-2.5 text-sm font-medium text-white dark:text-black rounded-full shadow-md transition-all duration-300 flex items-center gap-2 flex-shrink-0 whitespace-nowrap"
+                  className="liquid-button px-4 md:px-5 py-2.5 text-sm font-semibold text-white dark:text-black rounded-full shadow-md transition-all duration-300 flex items-center gap-2 flex-shrink-0 whitespace-nowrap"
                 >
                   <Download className="w-4 h-4" />
                   <span className="hidden lg:inline">{t('hero.downloadNow')}</span>
-                  <span className="hidden md:inline lg:hidden">{t('nav.platforms')}</span>
+                  <span className="inline lg:hidden">{t('nav.platforms')}</span>
                 </button>
               </div>
 
               {/* Mobile Menu Button */}
               <button
                 onClick={() => setMobileMenuOpen(true)}
-                className="md:hidden p-2 rounded-full text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100/80 dark:hover:bg-neutral-800/80 transition-colors"
+                className="lg:hidden p-2 rounded-full text-neutral-600 dark:text-neutral-300 hover:bg-neutral-100/80 dark:hover:bg-neutral-800/80 transition-colors"
               >
-                <Menu className="w-5 h-5 sm:w-6 sm:h-6" />
+                <Menu className="w-6 h-6" />
               </button>
             </div>
           </div>
@@ -160,10 +161,10 @@ export function Header({ theme, setTheme }: HeaderProps) {
 
       {/* Mobile Menu Overlay */}
       {mobileMenuOpen && (
-        <div className="fixed inset-0 z-[60] md:hidden">
+        <div className="fixed inset-0 z-[60] lg:hidden">
           <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" onClick={() => setMobileMenuOpen(false)} />
-          <div className="absolute top-4 left-4 right-4 bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-2xl shadow-2xl overflow-hidden animate-in fade-in slide-in-from-top-10 duration-200">
-            <div className="flex flex-col max-h-[85vh] overflow-y-auto">
+          <div className="absolute top-2 left-2 right-2 bottom-auto bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl shadow-2xl overflow-hidden animate-in fade-in slide-in-from-top-2 duration-300 flex flex-col max-h-[calc(100vh-1rem)]">
+            <div className="flex flex-col overflow-y-auto w-full h-full">
               <div className="flex items-center justify-between p-4 border-b border-neutral-100 dark:border-neutral-800">
                 <button onClick={() => { scrollToTop(); setMobileMenuOpen(false); }} className="flex items-center gap-2">
                   <GNoteAILogo className="w-7 h-7" theme={theme} />

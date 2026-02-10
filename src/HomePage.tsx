@@ -94,7 +94,7 @@ function HeroSection() {
   };
 
   return (
-    <section className="relative overflow-visible min-h-screen flex items-center justify-center pt-48 md:pt-56 pb-16 md:pb-20">
+    <section className="relative overflow-visible min-h-dvh flex items-center justify-center pt-48 md:pt-56 pb-16 md:pb-20">
       <LiquidBackground />
 
       <div className="container mx-auto px-4 md:px-6 relative z-10">
@@ -952,7 +952,7 @@ export default function HomePage() {
   }, []);
 
   return (
-    <div className="gnote-home-wrapper min-h-screen bg-background relative overflow-x-hidden">
+    <div className="gnote-home-wrapper min-h-dvh bg-background relative overflow-x-hidden">
       <SEO />
       <Header theme={theme} setTheme={setTheme} />
       <main>

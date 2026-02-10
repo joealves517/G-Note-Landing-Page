@@ -12,7 +12,9 @@
         "deploy": "npm run build && git add dist -f && git commit -m 'Deploy' && git push",
         "lint": "tsc --noEmit",
         "clean": "rm -rf dist node_modules package-lock.json",
-        "reinstall": "npm run clean && npm install"
+        "reinstall": "npm run clean && npm install",
+        "generate-sitemap": "node scripts/generate-sitemap.js",
+        "postbuild": "npm run generate-sitemap"
     },
     "dependencies": {
         "@radix-ui/react-accordion": "^1.2.1",
